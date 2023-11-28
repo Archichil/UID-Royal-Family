@@ -1,16 +1,13 @@
 import React from "react";
-import {BrowserRouter, Redirect, Route, Switch} from 'react-router-dom';
-import About from "./pages/About";
+import {BrowserRouter} from 'react-router-dom';
 import Navbar from "./components/UI/navbar/Navbar";
+import AppRouter from "./components/AppRouter";
 
 function App() {
     return (
         <BrowserRouter>
             <Navbar/>
-            <Switch>
-                <Route path = '/about'> <About/> </Route>
-                <Redirect to = '/about'/>
-            </Switch>
+            <AppRouter/>
         </BrowserRouter>
     );
 }
