@@ -1,5 +1,5 @@
 import React from 'react';
-import 'D:/Универ/Лабы/UID-Royal-Family/src/css/doer_section.css';
+import '../css/doer_section.css';
 
 const Doer = () => {
     const handleButtonClick = () => {

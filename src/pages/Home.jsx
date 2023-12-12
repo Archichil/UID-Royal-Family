@@ -1,4 +1,5 @@
 import React from 'react';
+import TeamDescription from "./TeamDescription";
 
 const Home = () => {
     return (
@@ -8,6 +9,7 @@ const Home = () => {
             // TODO Деяетель дня (Яна)
 
             // TODO Наша крутая команда (Артур)
+            <TeamDescription />
         </div>
     );
 };
