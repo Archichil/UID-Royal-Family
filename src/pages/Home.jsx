@@ -1,5 +1,5 @@
 import React from 'react';
-import TeamDescription from "./TeamDescription";
+import TeamDescription from "../components/TeamDescription";
 
 const Home = () => {
     return (
