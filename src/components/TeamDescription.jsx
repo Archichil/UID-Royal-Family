@@ -15,7 +15,7 @@ const TeamDescription = () => {
     ];
 
     return (
-        <div>=
+        <div>
             <h2 className={"team-h2"}>Команда разработчиков</h2>
             <Grid className={"dev-cards"} container spacing={2} justifyContent="center">
                 {teamMembers.map((member, index) => (

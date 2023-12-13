@@ -1,15 +1,14 @@
 import React from 'react';
 import TeamDescription from "../components/TeamDescription";
+import Description from "../components/Description";
+import Doer from "../components/Doer";
 
 const Home = () => {
     return (
         <div>
-            // TODO Описание портала (Стас)
-
-            // TODO Деяетель дня (Яна)
-
-            // TODO Наша крутая команда (Артур)
+            <Description />
             <TeamDescription />
+            <Doer/>
         </div>
     );
 };
