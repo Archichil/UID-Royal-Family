@@ -7,7 +7,8 @@ import backgroundImage from './images/background.jpg';
 function App() {
     const styles = {
         background: `url(${backgroundImage}) fixed`,
-        backgroundSize: 'cover'
+        backgroundSize: 'cover',
+        minHeight: '100vh'
     };
     return (
         <div style={styles}>

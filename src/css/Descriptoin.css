@@ -4,30 +4,28 @@
 }
 
 .mainContainer{
-    margin-top: 100px;
-    margin-bottom: 100px;
-    display: flex;
-    justify-content: center;
-}
-
-.sideContainer{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: 4px solid black;
-    border-radius: 50px;
-    background-color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .mainStack{
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 7%;
 }
 
 .sideStack{
     align-items: center;
     justify-content: center;
-    flex-grow: 1;
     gap: 20px;
-    height: 75vh;
+    height: 420px;
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 4px solid black;
+    border-radius: 50px;
+    background-color: floralwhite;
 }
 
 .mainText{
@@ -35,33 +33,15 @@
     text-align: center;
     letter-spacing: 2px;
     font-weight: bold;
-    font-size: 4.5rem;
+    font-size: 5rem;
     font-family: "Raleway", Arial, sans-serif;
+    white-space: normal;
 }
 
 .sideText{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-family: "Raleway", Arial, sans-serif;
     text-align: center;
-    width: 60%;
-}
+    width: 90%;
 
-@media (min-width: 430px) {
-    .mainText{
-        color: #261b17;
-        text-align: center;
-        letter-spacing: 2px;
-        font-weight: bold;
-        font-size: 6rem;
-        font-family: "Raleway", Arial, sans-serif;
-    }
-
-    .mainText{
-        color: #261b17;
-        text-align: center;
-        letter-spacing: 2px;
-        font-weight: bold;
-        font-size: 6rem;
-        font-family: "Raleway", Arial, sans-serif;
-    }
 }
