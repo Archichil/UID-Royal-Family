@@ -3,11 +3,19 @@
     margin: 0;
 }
 
-.container{
+.mainContainer{
     margin-top: 100px;
     margin-bottom: 100px;
     display: flex;
     justify-content: center;
+}
+
+.sideContainer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 4px solid black;
+    border-radius: 50px;
+    background-color: #d2c8bc;
 }
 
 .mainStack{
@@ -27,13 +35,33 @@
     text-align: center;
     letter-spacing: 2px;
     font-weight: bold;
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-family: "Raleway", Arial, sans-serif;
 }
 
 .sideText{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: "Raleway", Arial, sans-serif;
     text-align: center;
     width: 60%;
+}
+
+@media (min-width: 430px) {
+    .mainText{
+        color: #261b17;
+        text-align: center;
+        letter-spacing: 2px;
+        font-weight: bold;
+        font-size: 6rem;
+        font-family: "Raleway", Arial, sans-serif;
+    }
+
+    .mainText{
+        color: #261b17;
+        text-align: center;
+        letter-spacing: 2px;
+        font-weight: bold;
+        font-size: 6rem;
+        font-family: "Raleway", Arial, sans-serif;
+    }
 }
