@@ -8,7 +8,6 @@ const Home = () => {
         <div>
             <Description />
             <TeamDescription />
-            <Doer/>
         </div>
     );
 };
