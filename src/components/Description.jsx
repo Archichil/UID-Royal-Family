@@ -1,41 +1,41 @@
 import React from 'react';
-import Stack from '@mui/material/Stack';
 import Container from "@mui/material/Container";
-import Divider from '@mui/material/Divider';
-import Box from '@mui/material/Box';
-import '../css/Descriptoin.css';
+import CardsTemplate from "./CardsTemplate";
+import DescriptionCardInfo from "./DescriptionCardInfo";
+import "../css/Description.css"
 
 const Description = () => {
+    const title = [
+        'О ЧЕМ',
+        'ЦЕЛИ',
+        'КОМУ'
+    ]
+
+    const info = [
+        'На сайте вы сможете познакомиться и узнать что-то новое о\n' +
+        '                голландской королевской семьей и о ее членах в частности',
+
+        'Наш портал ставит своей целью просвятить общество,\n' +
+        '                что есть и иные королевские семьи кроме британской',
+
+        'Кроме историков и \'прошаренных\' людей сайт подойдет\n' +
+        '                и для обычных любознательных пользователей'
+    ]
+
+    const cardsInfo1 =
+        <DescriptionCardInfo key='1' width='500px' height='420px' title={title[0]} info={info[0]} />
+
+    const cardsInfo2 =
+        <DescriptionCardInfo key='2' width='500px' height='420px' title={title[1]} info={info[1]} />
+
+    const cardsInfo3 = (
+        <DescriptionCardInfo key='3' width='500px' height='420px' title={title[2]} info={info[2]} />
+    )
+
     return (
         <Container className='mainContainer' maxWidth="fm">
-            <Stack direction="row" className="mainStack">
-                <Stack direction="column" className="sideStack">
-                    <p className='mainText'> О ЧЕМ </p>
-                    <Divider sx={{ width: '80%' }} color="black"/>
-                    <p className='sideText'>
-                        На сайте вы сможете познакомиться и узнать что-то новое о
-                        голландской королевской семьей и о ее членах в частности
-                    </p>
-                </Stack>
-                <Stack direction="column" className="sideStack">
-                    <p className='mainText'>  ЦЕЛИ </p>
-                    <Divider sx={{ width: '80%' }} color="black"/>
-                    <p className='sideText'>
-                        Наш портал ставит своей целью просвятить общество,
-                        что есть и иные королевские семьи кроме британской
-                    </p>
-                </Stack>
-                <Stack direction="column" className="sideStack">
-                    <p className='mainText'> КОМУ </p>
-                    <Divider sx={{ width: '80%' }} color="black"/>
-                    <p className='sideText'>
-                        Кроме историков и 'прошаренных' людей сайт подойдет
-                        и для обычных любознательных пользователей
-                    </p>
-                </Stack>
-            </Stack>
+            <CardsTemplate>{[cardsInfo1, cardsInfo2, cardsInfo3]}</CardsTemplate>
         </Container>
-
     );
 };
 

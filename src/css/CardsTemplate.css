@@ -1,0 +1,17 @@
+.mainStack{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 7%;
+}
+
+.sideStack{
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 4px solid black;
+    border-radius: 50px;
+    background-color: floralwhite;
+}

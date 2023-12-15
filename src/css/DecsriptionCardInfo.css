@@ -1,0 +1,16 @@
+.mainText{
+    color: #261b17;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 5rem;
+    font-family: "Raleway", Arial, sans-serif;
+    white-space: normal;
+}
+
+.sideText{
+    font-size: 1.7rem;
+    font-family: "Raleway", Arial, sans-serif;
+    text-align: center;
+    width: 90%;
+}
