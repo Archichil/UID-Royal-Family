@@ -16,7 +16,9 @@ const TeamDescription = () => {
 
     return (
         <div>
-            <h2 className={"team-h2"}>Команда разработчиков</h2>
+            <Typography variant="h2" className={"team-h2"} style={{fontFamily: 'Raleway'}}>
+                Команда разработчиков
+            </Typography>
             <Grid className={"dev-cards"} container spacing={2} justifyContent="center">
                 {teamMembers.map((member, index) => (
                     <Grid item key={index}>

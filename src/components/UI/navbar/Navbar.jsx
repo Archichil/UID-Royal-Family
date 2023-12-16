@@ -20,7 +20,7 @@ const colors = {
 };
 
 const animationConfig = {
-    duration: 250,
+    duration: 50,
     tension: 120,
     friction: 14,
     mass: 1,
