@@ -23,8 +23,7 @@ i18next
 
 export default i18next;
 
-export const isEn = () => i18next.language === 'en';
-
+const isEn = () => i18next.language === 'en';
 export const swapLanguage = () => {
     if (isEn()) { i18next.changeLanguage('ru') }
     else        { i18next.changeLanguage('en') }

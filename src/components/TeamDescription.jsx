@@ -5,14 +5,12 @@ import TelegramIcon from '@mui/icons-material/Telegram';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import {useTranslation} from "react-i18next";
-import { isEn } from "../i18n";
 
 const TeamDescription = () => {
     const { t } = useTranslation();
-    const arturImgUrl = isEn() ? "https://i.imgur.com/Nte5Ydz.jpg" : "https://i.imgur.com/QzNhjQW.jpg";
     const teamMembers = [
         { name: t('authors.egor.name'), github: 'https://github.com/riborok', instagram: 'https://www.instagram.com/egorpnkrtw/', telegram: 'https://t.me/egorpnkrtw', alias: t('authors.egor.alias'), image: "https://avatars.githubusercontent.com/u/112758007?v=4" },
-        { name: t('authors.artur.name'), github: 'https://github.com/Archichil', instagram: 'https://www.instagram.com/k.archichil/', telegram: 'https://t.me/Archichil', alias: t('authors.artur.alias'), image: arturImgUrl},
+        { name: t('authors.artur.name'), github: 'https://github.com/Archichil', instagram: 'https://www.instagram.com/k.archichil/', telegram: 'https://t.me/Archichil', alias: t('authors.artur.alias'), image: t('authors.artur.img-url')},
         { name: t('authors.stis.name'), github: 'https://github.com/Ferret451', instagram: 'https://www.instagram.com/ferrett451/', telegram: 'https://t.me/Ferret451', alias: t('authors.stis.alias'), image: "https://avatars.githubusercontent.com/u/112757776?v=4"},
         { name: t('authors.yana.name'), github: 'https://github.com/Rawwzer', instagram: 'https://www.instagram.com/rawwzero/', telegram: 'https://t.me/RawwZer', alias: t('authors.yana.alias'), image: "https://avatars.githubusercontent.com/u/82700519?v=4"}
     ];
