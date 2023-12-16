@@ -3,34 +3,14 @@ import Container from "@mui/material/Container";
 import CardsTemplate from "./CardsTemplate";
 import DescriptionCardInfo from "./DescriptionCardInfo";
 import "../css/Description.css"
+import {useTranslation} from "react-i18next";
 
 const Description = () => {
-    const title = [
-        'О ЧЕМ',
-        'ЦЕЛИ',
-        'КОМУ'
-    ]
+    const {t} = useTranslation();
 
-    const info = [
-        'На сайте вы сможете познакомиться и узнать что-то новое о\n' +
-        '                голландской королевской семьей и о ее членах в частности',
-
-        'Наш портал ставит своей целью просвятить общество,\n' +
-        '                что есть и иные королевские семьи кроме британской',
-
-        'Кроме историков и \'прошаренных\' людей сайт подойдет\n' +
-        '                и для обычных любознательных пользователей'
-    ]
-
-    const cardsInfo1 =
-        <DescriptionCardInfo width='400px' height='320px' title={title[0]} info={info[0]} />
-
-    const cardsInfo2 =
-        <DescriptionCardInfo width='400px' height='320px' title={title[1]} info={info[1]} />
-
-    const cardsInfo3 = (
-        <DescriptionCardInfo width='400px' height='320px' title={title[2]} info={info[2]} />
-    )
+    const cardsInfo1 = <DescriptionCardInfo width='400px' height='320px' title={t('description.titles.about')} info={t('description.info.about')} />
+    const cardsInfo2 = <DescriptionCardInfo width='400px' height='320px' title={t('description.titles.aims')} info={t('description.info.aims')} />
+    const cardsInfo3 = <DescriptionCardInfo width='400px' height='320px' title={t('description.titles.toWhom')} info={t('description.info.toWhom')} />
 
     return (
         <Container className='mainContainer' maxWidth="fm">

@@ -5,6 +5,30 @@
     "familyMembers": "Family Members",
     "current_language": "En"
   },
+  "description": {
+    "titles": {
+      "about": "ABOUT",
+      "aims": "GOALS",
+      "toWhom": "TO WHOM"
+    },
+    "info": {
+      "about": "On the website, you will be able to get acquainted and learn something new about the Dutch royal family and its members in particular.",
+      "aims": "Our portal aims to enlighten society about the existence of other royal families besides the British one.",
+      "toWhom": "In addition to historians and 'knowledgeable' individuals, the site is suitable for ordinary curious users."
+    }
+  },
+  "search": "Search",
+  "familyMembersName": {
+    "willem": "King Willem-Alexander",
+    "maxima": "Queen Máxima",
+    "beatrix": "Princess Beatrix",
+    "orange": "Princess of Orange",
+    "alex": "Princess Alexia",
+    "ariane": "Princess Ariane",
+    "const": "Prince Constantijn",
+    "laurien": "Princess Laurentien",
+    "margriet": "Princess Margriet"
+  },
   "familyMembers": [
     {
       "id": 1,
