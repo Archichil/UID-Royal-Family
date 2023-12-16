@@ -1,6 +1,6 @@
 import React from 'react';
 import Stack from "@mui/material/Stack";
-import '../css/doer_section.css';
+import '../css/DoerSection.css';
 
 const Doer = () => {
     const handleButtonClick = () => {

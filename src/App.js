@@ -3,19 +3,30 @@ import {BrowserRouter} from 'react-router-dom';
 import Navbar from "./components/UI/navbar/Navbar";
 import AppRouter from "./components/AppRouter";
 import backgroundImage from './images/background.jpg';
+import {useMediaQuery} from "@mui/material";
 
 function App() {
-    const styles = {
+    const isSmallScreen = useMediaQuery('(max-width:600px)');
+    const containerStyles =  {
+        display: isSmallScreen ? 'block' : 'flex',
+        justifyContent: 'center',
         background: `url(${backgroundImage}) fixed`,
         backgroundSize: 'cover',
-        minHeight: '100vh'
     };
+    const windowWidth = window.screen.width;
+    const infoStyles = {
+        maxWidth: `${windowWidth * 1.2}px`,
+        minHeight: '100vh',
+    };
+
     return (
-        <div style={styles}>
-            <BrowserRouter>
-                    <Navbar/>
-                    <AppRouter/>
-            </BrowserRouter>
+        <div style={containerStyles}>
+            <div style={infoStyles}>
+                <BrowserRouter>
+                    <Navbar />
+                    <AppRouter />
+                </BrowserRouter>
+            </div>
         </div>
     );
 }
