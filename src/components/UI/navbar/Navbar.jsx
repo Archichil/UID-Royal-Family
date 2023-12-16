@@ -4,6 +4,12 @@ import { Link } from 'react-router-dom';
 import { useSpring, animated } from 'react-spring';
 import MenuIcon from '@mui/icons-material/Menu';
 
+const backgroundColor = '#222';
+
+const interpolateColor = (style) => {
+    return style.color.interpolate((c) => `rgb(${c})`);
+};
+
 const colors = {
     default: '255,255,255',
     gold: '255,223,0',
@@ -35,7 +41,7 @@ const Navbar = () => {
     const isSmallScreen = useMediaQuery('(max-width:600px)');
 
     return (
-        <AppBar position="static" style={{ background: '#222' }}>
+        <AppBar position="static" style={{ background: backgroundColor }}>
             <Toolbar>
                 <Typography variant="h6" style={{ marginRight: '2em', fontSize: '1.5em' }}>
                     Royal Family
@@ -50,11 +56,11 @@ const Navbar = () => {
                                 anchorEl={anchorEl}
                                 open={Boolean(anchorEl)}
                                 onClose={handleMenuClose}
-                                PaperProps={{ style: { background: '#222' } }}
+                                PaperProps={{ style: { background: backgroundColor } }}
                             >
                                 <animated.div
                                     style={{
-                                        color: styleHome.color.interpolate((c) => `rgb(${c})`),
+                                        color: interpolateColor(styleHome),
                                     }}
                                 >
                                     <MenuItem
@@ -69,7 +75,7 @@ const Navbar = () => {
                                 </animated.div>
                                 <animated.div
                                     style={{
-                                        color: styleFamily.color.interpolate((c) => `rgb(${c})`),
+                                        color: interpolateColor(styleFamily),
                                     }}
                                 >
                                     <MenuItem
@@ -88,7 +94,7 @@ const Navbar = () => {
                         <>
                             <animated.div
                                 style={{
-                                    color: styleHome.color.interpolate((c) => `rgb(${c})`),
+                                    color: interpolateColor(styleHome),
                                     marginRight: '1em',
                                 }}
                             >
@@ -104,7 +110,7 @@ const Navbar = () => {
                             </animated.div>
                             <animated.div
                                 style={{
-                                    color: styleFamily.color.interpolate((c) => `rgb(${c})`),
+                                    color: interpolateColor(styleFamily),
                                 }}
                             >
                                 <Button
