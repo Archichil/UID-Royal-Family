@@ -4,6 +4,8 @@ import { Link, useLocation } from 'react-router-dom';
 import { useSpring, animated } from 'react-spring';
 import MenuIcon from '@mui/icons-material/Menu';
 import {p_home, p_family_members} from "../../../js/Paths";
+import {useTranslation} from "react-i18next";
+import i18n from "../../../i18n";
 
 const backgroundColors = {
     default: '#222',
@@ -35,7 +37,14 @@ const getBackground = (isTarget) => {
     return isTarget ? backgroundColors.highlighted : backgroundColors.default;
 };
 
+const swapLanguage = () => {
+    if (i18n.language === 'ru') { i18n.changeLanguage('en') }
+    else                        { i18n.changeLanguage('ru')}
+}
+
 const Navbar = () => {
+    const { t } = useTranslation();
+
     const [styleHome, setHome] = useSpring(() => ({
         ...animationProps,
     }));
@@ -52,7 +61,7 @@ const Navbar = () => {
         <AppBar position="static" style={{ background: backgroundColors.default }}>
             <Toolbar style={isSmallScreen ? { display: 'flex', justifyContent: 'space-between' } : {}}>
                 <Typography component={Link} to="/home" variant="h6" style={{ marginRight: '2em', fontSize: '1.5em', color: `rgb(${colors.default})`, textDecoration: 'none' }}>
-                    Royal Family
+                    {t('navbar.title')}
                 </Typography>
                 <div style={{ display: 'flex', alignItems: 'center' }}>
                     {isSmallScreen ? (
@@ -79,7 +88,7 @@ const Navbar = () => {
                                         onTouchEnd={() => setHome({ color: colors.default })}
                                         style={{background: getBackground(location.pathname === p_home)}}
                                     >
-                                        Home
+                                        {t('navbar.home')}
                                     </MenuItem>
                                 </animated.div>
                                 <animated.div
@@ -95,7 +104,7 @@ const Navbar = () => {
                                         onTouchEnd={() => setFamily({ color: colors.default })}
                                         style={{background: getBackground(location.pathname === p_family_members)}}
                                     >
-                                        Family Members
+                                        {t('navbar.familyMembers')}
                                     </MenuItem>
                                 </animated.div>
                             </Menu>
@@ -116,12 +125,13 @@ const Navbar = () => {
                                     onMouseLeave={() => setHome({ color: colors.default })}
                                     style={{background: getBackground(location.pathname === p_home)}}
                                 >
-                                    Home
+                                    {t('navbar.home')}
                                 </Button>
                             </animated.div>
                             <animated.div
                                 style={{
                                     color: interpolateColor(styleFamily),
+                                    marginRight: '1em',
                                 }}
                             >
                                 <Button
@@ -132,7 +142,7 @@ const Navbar = () => {
                                     onMouseLeave={() => setFamily({ color: colors.default })}
                                     style={{background: getBackground(location.pathname === p_family_members)}}
                                 >
-                                    Family Members
+                                    {t('navbar.familyMembers')}
                                 </Button>
                             </animated.div>
                         </>

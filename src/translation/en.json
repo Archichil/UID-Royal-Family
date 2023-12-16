@@ -1,4 +1,9 @@
 {
+  "navbar": {
+    "title": "Royal Family",
+    "home": "Home",
+    "familyMembers": "Family Members"
+  },
   "familyMembers": [
     {
       "id": 1,
