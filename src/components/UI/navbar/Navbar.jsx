@@ -1,10 +1,14 @@
 import React from 'react';
-import { AppBar, Toolbar, Typography, Button, IconButton, Menu, MenuItem, useMediaQuery, Paper } from '@mui/material';
-import { Link } from 'react-router-dom';
+import { AppBar, Toolbar, Typography, Button, IconButton, Menu, MenuItem, useMediaQuery } from '@mui/material';
+import { Link, useLocation } from 'react-router-dom';
 import { useSpring, animated } from 'react-spring';
 import MenuIcon from '@mui/icons-material/Menu';
+import {p_home, p_family_members} from "../../../js/Paths";
 
-const backgroundColor = '#222';
+const backgroundColors = {
+    default: '#222',
+    highlighted: '#2f2f2f',
+}
 
 const interpolateColor = (style) => {
     return style.color.interpolate((c) => `rgb(${c})`);
@@ -27,6 +31,10 @@ const animationProps = {
     config: animationConfig,
 };
 
+const getBackground = (isTarget) => {
+    return isTarget ? backgroundColors.highlighted : backgroundColors.default;
+};
+
 const Navbar = () => {
     const [styleHome, setHome] = useSpring(() => ({
         ...animationProps,
@@ -39,10 +47,10 @@ const Navbar = () => {
     const handleMenuClick = (event) => { setAnchorEl(event.currentTarget);};
     const handleMenuClose = () => { setAnchorEl(null); };
     const isSmallScreen = useMediaQuery('(max-width:600px)');
-
+    const location = useLocation();
     return (
-        <AppBar position="static" style={{ background: backgroundColor }}>
-            <Toolbar>
+        <AppBar position="static" style={{ background: backgroundColors.default }}>
+            <Toolbar style={isSmallScreen ? { display: 'flex', justifyContent: 'space-between' } : {}}>
                 <Typography variant="h6" style={{ marginRight: '2em', fontSize: '1.5em' }}>
                     Royal Family
                 </Typography>
@@ -56,7 +64,7 @@ const Navbar = () => {
                                 anchorEl={anchorEl}
                                 open={Boolean(anchorEl)}
                                 onClose={handleMenuClose}
-                                PaperProps={{ style: { background: backgroundColor } }}
+                                PaperProps={{ style: { background: backgroundColors.default } }}
                             >
                                 <animated.div
                                     style={{
@@ -69,6 +77,7 @@ const Navbar = () => {
                                         onClick={handleMenuClose}
                                         onTouchStart={() => setHome({ color: colors.gold })}
                                         onTouchEnd={() => setHome({ color: colors.default })}
+                                        style={{background: getBackground(location.pathname === p_home)}}
                                     >
                                         Home
                                     </MenuItem>
@@ -84,6 +93,7 @@ const Navbar = () => {
                                         onClick={handleMenuClose}
                                         onTouchStart={() => setFamily({ color: colors.gold })}
                                         onTouchEnd={() => setFamily({ color: colors.default })}
+                                        style={{background: getBackground(location.pathname === p_family_members)}}
                                     >
                                         Family Members
                                     </MenuItem>
@@ -104,6 +114,7 @@ const Navbar = () => {
                                     color="inherit"
                                     onMouseEnter={() => setHome({ color: colors.gold })}
                                     onMouseLeave={() => setHome({ color: colors.default })}
+                                    style={{background: getBackground(location.pathname === p_home)}}
                                 >
                                     Home
                                 </Button>
@@ -119,6 +130,7 @@ const Navbar = () => {
                                     color="inherit"
                                     onMouseEnter={() => setFamily({ color: colors.gold })}
                                     onMouseLeave={() => setFamily({ color: colors.default })}
+                                    style={{background: getBackground(location.pathname === p_family_members)}}
                                 >
                                     Family Members
                                 </Button>
