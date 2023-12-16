@@ -9,7 +9,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 const TeamDescription = () => {
     const teamMembers = [
         { name: 'Egor Pankratiev', github: 'https://github.com/riborok', instagram: 'https://www.instagram.com/egorpnkrtw/', telegram: 'https://t.me/egorpnkrtw', alias: 'Riborok', image: "https://avatars.githubusercontent.com/u/112758007?v=4" },
-        { name: 'Artur Kukhatskavolets', github: 'https://github.com/Archichil', instagram: 'https://www.instagram.com/k.archichil/', telegram: 'https://t.me/Archichil', alias: 'Archichil', image: "https://avatars.githubusercontent.com/u/112758007?v=4"},
+        { name: 'Artur Kukhatskavolets', github: 'https://github.com/Archichil', instagram: 'https://www.instagram.com/k.archichil/', telegram: 'https://t.me/Archichil', alias: 'Archichil', image: "https://i.imgur.com/Nte5Ydz.jpg"},
         { name: 'Stas Gabrus', github: 'https://github.com/Ferret451', instagram: 'https://www.instagram.com/ferrett451/', telegram: 'https://t.me/Ferret451', alias: 'Ferret451', image: "https://avatars.githubusercontent.com/u/112757776?v=4"},
         { name: 'Yana Zhuk', github: 'https://github.com/Rawwzer', instagram: 'https://www.instagram.com/rawwzero/', telegram: 'https://t.me/RawwZer', alias: 'RawwZer', image: "https://avatars.githubusercontent.com/u/82700519?v=4"}
     ];
