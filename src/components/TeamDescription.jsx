@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Typography, Avatar, Grid, Link as MuiLink } from '@mui/material';
+import {Avatar, Card, Grid, Link as MuiLink, Typography} from '@mui/material';
 import '../css/TeamDescription.css';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import GitHubIcon from '@mui/icons-material/GitHub';

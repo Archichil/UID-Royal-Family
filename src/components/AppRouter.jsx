@@ -3,7 +3,7 @@ import {Redirect, Route, Switch} from "react-router-dom";
 import Home from "../pages/Home";
 import FamilyMembers from "../pages/FamilyMembers";
 import FamilyMemberInfo from "../pages/FamilyMemberInfo";
-import {p_home, p_family_members} from "../js/Paths";
+import {p_family_members, p_home} from "../js/Paths";
 
 const AppRouter = () => {
     return (

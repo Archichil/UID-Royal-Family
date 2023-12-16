@@ -2,6 +2,7 @@
   "navbar": {
     "title": "Королевская семья",
     "home": "Домой",
-    "familyMembers": "Члены семьи"
+    "familyMembers": "Члены семьи",
+    "current_language": "Рус"
   }
 }

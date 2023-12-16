@@ -2,7 +2,8 @@
   "navbar": {
     "title": "Royal Family",
     "home": "Home",
-    "familyMembers": "Family Members"
+    "familyMembers": "Family Members",
+    "current_language": "En"
   },
   "familyMembers": [
     {
