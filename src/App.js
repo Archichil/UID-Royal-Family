@@ -15,7 +15,7 @@ function App() {
     };
     const windowWidth = window.screen.width;
     const infoStyles = {
-        width: `${windowWidth * 1.2}px`,
+        width: `${windowWidth}px`,
         minHeight: '100vh',
     };
 
