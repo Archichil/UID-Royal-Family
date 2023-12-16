@@ -23,13 +23,13 @@ const Description = () => {
     ]
 
     const cardsInfo1 =
-        <DescriptionCardInfo key='1' width='500px' height='420px' title={title[0]} info={info[0]} />
+        <DescriptionCardInfo width='400px' height='320px' title={title[0]} info={info[0]} />
 
     const cardsInfo2 =
-        <DescriptionCardInfo key='2' width='500px' height='420px' title={title[1]} info={info[1]} />
+        <DescriptionCardInfo width='400px' height='320px' title={title[1]} info={info[1]} />
 
     const cardsInfo3 = (
-        <DescriptionCardInfo key='3' width='500px' height='420px' title={title[2]} info={info[2]} />
+        <DescriptionCardInfo width='400px' height='320px' title={title[2]} info={info[2]} />
     )
 
     return (
