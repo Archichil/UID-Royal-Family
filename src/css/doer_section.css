@@ -1,82 +1,80 @@
 .doer_section{
     height: 1000px;
     background: linear-gradient(rgba(243, 225, 208, 1), rgba(243, 225, 208, 0.7)), url('/src/images/1.jpg')  center/cover no-repeat;
-
 }
 
 .sectionName{
     position: relative;
     color: #0B237F;
-    top: 30px;
-    margin: 0;
-    text-align: center;
+    top: 3%;
+    margin: 0 auto;
     letter-spacing: 2px;
-    font-size: 80px;
-    align-self: center;
+    font-size: clamp(45px, 5vw, 80px);
+    text-align: center;
     font-family: 'Yeseva One', cursive;
 }
 
 .descriptDoer{
+    display: flex;
     position: relative;
-    top: 150px;
-    padding: 0px 30px 0px 30px;
-    height: 800px;
+    top: 10%;
+    height: 73%;
 }
 
 .descriptZone{
-    width: 1000px;
+    flex:2;
+    width: clamp(380px, 70%, 800px);
     float: right;
-    right: 30px;
     position: relative;
     color: #2B3F77;
 }
 
 .nameZone{
     top: 30px;
-    margin: 40px 0 70px 0;
+    margin: 40px 2% 70px 2%;
     font-weight: bold;
-    font-size: 70px;
+    font-size: clamp(30px, 3vw, 60px);
     font-family: 'Philosopher', sans-serif;
 }
 
 .shortDescript{
     position: relative;
-    height: 320px;
-    margin: 0 0 40px 0;
+    height: clamp(200px, 320px, 40%);
+    margin: 0 2% 20px 2%;
     white-space: normal;
-    font-size: 33px;
+    font-size: clamp(18px, 1.5vw, 35px);
     font-family: 'Philosopher', sans-serif;
 }
 
 .btnDoer{
     position: relative;
-    height: 60px;
-    width: 300px;
-    font-size: 28px;
+    height: 40px;
+    left:25%;
+    width: clamp(60px, 60%, 200px);
+    font-size: clamp(15px, 1.2vw, 20px);
     font-family: 'Philosopher', sans-serif;
     border-radius: 15px;
     background-color: #2B3F77;
     color: rgba(243, 225, 208, 1);
     cursor: pointer;
-    left: 33%;
 }
 
 .photoDoer{
-    height: 650px;
-    width: 520px;
+    height: 95%;
+    width: 95%;
     border-radius: 50%;
-    margin: 13.5px;
+    margin: 2.7%;
     object-fit: cover;
 }
 
 .photoDoerEdging{
-    float: left;
     position: relative;
-    left: 120px;
-    height: 680px;
-    width: 545px;
+    left: clamp(10px, 12%, 20px);
+    height: clamp(100px, 90%, 600px);
+    width: clamp(200px, 25%, 300px);
     border: 3px solid rgb(218,161,27);
     box-shadow: 0px 0px 30px rgba(175,128,8, 0.9);
     border-radius: 50%;
     background-color: transparent;
+    flex: 1;
 }
