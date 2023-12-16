@@ -1,7 +1,7 @@
 import React from 'react';
 import AnimatedButton from "./AnimatedButton";
 import {p_family_members, p_home} from "../../../js/Paths";
-import {swapLanguage} from "./Constants";
+import {swapLanguage} from "../../../i18n";
 import {useTranslation} from "react-i18next";
 import {useLocation} from "react-router-dom";
 

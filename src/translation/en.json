@@ -1,4 +1,23 @@
 {
+  "authors": {
+    "egor": {
+      "name": "Egor Pankratiev",
+      "alias": "Riborok"
+    },
+    "artur": {
+      "name": "Artur Kukhatskavolets",
+      "alias": "Archichil"
+    },
+    "stis": {
+      "name": "Stas Gabrus",
+      "alias": "Ferret451"
+    },
+    "yana": {
+      "name": "Yana Zhuk",
+      "alias": "RawwZer"
+    },
+    "title": "Development team"
+  },
   "navbar": {
     "title": "Royal Family",
     "home": "Home",

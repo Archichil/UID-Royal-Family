@@ -10,6 +10,7 @@ i18next
         debug: true,
         fallbackLng: "ru",
         defaultNS: "ns1",
+        lng: "en",
         resources: {
             en: {
                 ns1: enTranslations,
@@ -21,3 +22,10 @@ i18next
     });
 
 export default i18next;
+
+export const isEn = () => i18next.language === 'en';
+
+export const swapLanguage = () => {
+    if (isEn()) { i18next.changeLanguage('ru') }
+    else        { i18next.changeLanguage('en') }
+}

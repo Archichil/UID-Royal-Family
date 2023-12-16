@@ -1,8 +1,9 @@
 import React from 'react';
 import {IconButton, Menu} from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-import {backgroundColors, swapLanguage} from "./Constants";
+import {backgroundColors} from "./Constants";
 import AnimatedItem from "./AnimatedItem";
+import {swapLanguage} from "../../../i18n";
 import {p_family_members, p_home} from "../../../js/Paths";
 import {useTranslation} from "react-i18next";
 import {useLocation} from "react-router-dom";

@@ -13,17 +13,15 @@ const Navbar = () => {
 
     return (
         <AppBar position="static" style={{ background: backgroundColors.default }}>
-            <Toolbar style={isSmallScreen ? { display: 'flex', justifyContent: 'space-between' } : {}}>
+            <Toolbar style={{ display: 'flex', justifyContent: 'space-between' }}>
                 <Typography
                     component={Link}
                     to={p_home}
                     variant="h6"
                     style={{
-                        marginRight: '2em',
                         fontSize: '1.5em',
                         color: `rgb(${colors.default})`,
                         textDecoration: 'none',
-                        width: '15%',
                     }}
                 >
                     {t('navbar.title')}
