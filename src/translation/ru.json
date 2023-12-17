@@ -125,7 +125,7 @@
           "cardDetailedText": "В 2022 году король Виллем-Александр может принять участие в мероприятиях по празднованию платинового юбилея королевы Елизаветы II."
         }
       ],
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=Xa9Xh8-en6M&ab_channel=Euronews%D0%BF%D0%BE-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8",
       "googleMap": ""
     },
     "queen-maxima": {
@@ -197,7 +197,7 @@
           "cardDetailedText": "В 2022 году королева Максима может принять участие в мероприятиях, посвященных платиновому юбилею королевы Елизаветы II."
         }
       ],
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=YPzBrENc4FE",
       "googleMap": ""
     },
     "princess-beatrix": {
@@ -251,15 +251,15 @@
           "cardDetailedText": "После отречения Беатрикс уходит с общественных обязанностей и начинает вести более частную жизнь."
         }
       ],
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=2haJQiARiyQ",
       "googleMap": ""
     },
     "the-princess-of-orange": {
-      "name": "Принцесса Оранская",
+      "name": "Принцесса Апельсин",
       "age": "20",
       "birthdayDate": "7 декабря 2003 г.",
       "images": [],
-      "description": "Катарина-Амалия, принцесса Оранская, является наследницей престола Королевства Нидерландов, в состав которого входят Аруба, Кюрасао, Нидерланды и Синт-Мартен.",
+      "description": "Катарина-Амалия, принцесса Апельсин, является наследницей престола Королевства Нидерландов, в состав которого входят Аруба, Кюрасао, Нидерланды и Синт-Мартен.",
       "photo": "src/images/members/princess-of-orange.jpg",
       "timelineItems": [
         {
@@ -299,7 +299,7 @@
           "cardDetailedText": "Ожидается, что с 2022 года Катарина-Амалия продолжит свое образование и постепенно возьмет на себя больше обязанностей в королевской семье."
         }
       ],
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=pxk2-dCBkcM",
       "googleMap": ""
     },
     "princess-alexia": {
@@ -347,7 +347,7 @@
           "cardDetailedText": "Ожидается, что с 2022 года Алексия продолжит свое образование и постепенно возьмет на себя больше обязанностей в королевской семье."
         }
       ],
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=ZfyIn1Tmck8",
       "googlemap": ""
     },
     "princess-ariane": {
@@ -395,7 +395,7 @@
           "cardDetailedText": "С 2022 года Ариана продолжит свое образование и, как ожидается, постепенно возьмет на себя больше обязанностей в королевской семье."
         }
       ],
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=7HQet_S4-bE",
       "googlemap": ""
     },
     "prince-constantijn": {
@@ -461,7 +461,7 @@
           "cardDetailedText": "В 2022 году принц Константин может принять участие в мероприятиях по празднованию платинового юбилея королевы Елизаветы II."
         }
       ],
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=aWZfcsqtzHI",
       "googlemap": ""
     },
     "princess-laurentien": {
@@ -527,7 +527,7 @@
           "cardDetailedText": "В 2022 году принцесса Лаврентьева может принять участие в мероприятиях, посвященных платиновому юбилею королевы Елизаветы II."
         }
       ],
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=aWZfcsqtzHI",
       "googlemap": ""
     },
     "princess-margriet": {
@@ -599,7 +599,7 @@
           "cardDetailedText": "В 2022 году принцесса Маргрит может принять участие в мероприятиях, посвященных платиновому юбилею королевы Елизаветы II."
         }
       ],
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=KY-xQxUdKOo",
       "googlemap": ""
     }
   }
