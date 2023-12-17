@@ -1,11 +1,10 @@
+import {membersId} from "./MembersId";
+
 const seededRandom = (seed, n, m) => {
     const x = Math.sin(seed++) * 10000;
     const random = x - Math.floor(x);
     return Math.floor(random * (m - n + 1)) + n;
 };
-
-export const membersId = ["king-willem-alexander", "queen-maxima", "princess-beatrix", "the-princess-of-orange",
-    "princess-alexia", "princess-ariane", "prince-constantijn", "princess-laurentien", "princess-margriet"];
 
 export const getDailyMemberId = () => {
     const savedIndex = localStorage.getItem('chosenIndex');

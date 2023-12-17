@@ -1,7 +1,7 @@
 import React from 'react';
 import {useTranslation} from "react-i18next";
 import AnimatedButton from "../navbar/AnimatedButton";
-import {p_family_members, p_home} from "../../../js/Paths";
+import {p_home} from "../../../js/Paths";
 
 const AnimatedButtonFooter = () => {
     const { t } = useTranslation();

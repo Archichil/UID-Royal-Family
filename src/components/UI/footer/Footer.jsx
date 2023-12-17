@@ -1,9 +1,7 @@
 import React from 'react';
 import {AppBar, Box, Toolbar, Typography, useMediaQuery} from '@mui/material';
-import { useTranslation } from 'react-i18next';
+import {useTranslation} from 'react-i18next';
 import {backgroundColors, colors} from "../navbar/Constants";
-import {p_home} from "../../../js/Paths";
-import { useSpring, animated } from 'react-spring';
 import {Link} from 'react-router-dom';
 import AnimatedButtonFooter from './AnimatedButtonFooter';
 import AnimatedItemNavbar from './AnimatedItemNavbar';

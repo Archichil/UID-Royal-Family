@@ -13,7 +13,6 @@ const Doer = () => {
     const dailyMemberId = getDailyMemberId();
     const dailyMember = t(`familyMembers.${dailyMemberId}`, { returnObjects: true });
 
-    // TODO: ФОТКУ СДЕЛАТЬ ЕМАЕ
     return (
         <div className="doer_section">
             <p className="sectionName">{dailyMemberInfo['title']}</p>

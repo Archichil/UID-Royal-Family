@@ -4,7 +4,7 @@ import CardsTemplate from "../components/CardsTemplate";
 import FamilyMemberCardInfo from "../components/FamilyMemberCardInfo";
 import Container from "@mui/material/Container";
 import {useTranslation} from "react-i18next";
-import {membersId} from "../js/DailyRandom";
+import {membersId} from "../js/MembersId";
 
 const FamilyMembers = () => {
     const [searchTerm, setSearchTerm] = useState('');

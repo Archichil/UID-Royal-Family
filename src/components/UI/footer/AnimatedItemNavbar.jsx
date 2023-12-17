@@ -1,11 +1,10 @@
 import React from 'react';
-import {p_family_members, p_home} from "../../../js/Paths";
+import {p_home} from "../../../js/Paths";
 import {useTranslation} from "react-i18next";
 import AnimatedItem from "../navbar/AnimatedItem";
 import {IconButton, Menu} from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import {backgroundColors} from "../navbar/Constants";
-import {swapLanguage} from "../../../i18n";
 
 const AnimatedItemNavbar = () => {
     const { t } = useTranslation();
