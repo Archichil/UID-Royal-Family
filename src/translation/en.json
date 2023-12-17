@@ -9,7 +9,7 @@
       "alias": "Archichil",
       "img-url": "https://i.imgur.com/Nte5Ydz.jpg"
     },
-    "stis": {
+    "stas": {
       "name": "Stas Gabrus",
       "alias": "Ferret451"
     },
@@ -61,70 +61,70 @@
       "photo": "src/images/members/king-willem-alexander.jpg",
       "timelineItems": [
         {
-          "timelineYears": "1967",
-          "timelineTitle": "Birth of Willem-Alexander",
-          "timelineSubtitle": "",
-          "timelineText": "On April 27, 1967, Willem-Alexander Claus George Ferdinand is born in Utrecht, Netherlands, as the eldest son of Princess Beatrix and Prince Claus."
+          "title": "1967",
+          "cardTitle": "Birth of Willem-Alexander",
+          "cardSubtitle": "",
+          "cardDetailedText": "On April 27, 1967, Willem-Alexander Claus George Ferdinand is born in Utrecht, Netherlands, as the eldest son of Princess Beatrix and Prince Claus."
         },
         {
-          "timelineYears": "1980",
-          "timelineTitle": "Ascension to Prince of Orange",
-          "timelineSubtitle": "",
-          "timelineText": "On April 30, 1980, Princess Beatrix ascends the throne, and Willem-Alexander becomes the Prince of Orange, the heir apparent."
+          "title": "1980",
+          "cardTitle": "Ascension to Prince of Orange",
+          "cardSubtitle": "",
+          "cardDetailedText": "On April 30, 1980, Princess Beatrix ascends the throne, and Willem-Alexander becomes the Prince of Orange, the heir apparent."
         },
         {
-          "timelineYears": "1985-1987",
-          "timelineTitle": "University Studies",
-          "timelineSubtitle": "",
-          "timelineText": "Prince Willem-Alexander studies history at Leiden University."
+          "title": "1985-1987",
+          "cardTitle": "University Studies",
+          "cardSubtitle": "",
+          "cardDetailedText": "Prince Willem-Alexander studies history at Leiden University."
         },
         {
-          "timelineYears": "1993",
-          "timelineTitle": "Marriage to Máxima",
-          "timelineSubtitle": "",
-          "timelineText": "In 2002, Willem-Alexander marries Máxima Zorreguieta Cerruti, an Argentine investment banker, on February 2."
+          "title": "1993",
+          "cardTitle": "Marriage to Máxima",
+          "cardSubtitle": "",
+          "cardDetailedText": "In 2002, Willem-Alexander marries Máxima Zorreguieta Cerruti, an Argentine investment banker, on February 2."
         },
         {
-          "timelineYears": "2001",
-          "timelineTitle": "Birth of Princess Catharina-Amalia",
-          "timelineSubtitle": "",
-          "timelineText": "On December 7, 2003, their first child, Princess Catharina-Amalia, is born."
+          "title": "2001",
+          "cardTitle": "Birth of Princess Catharina-Amalia",
+          "cardSubtitle": "",
+          "cardDetailedText": "On December 7, 2003, their first child, Princess Catharina-Amalia, is born."
         },
         {
-          "timelineYears": "2013",
-          "timelineTitle": "Accession to the Throne",
-          "timelineSubtitle": "",
-          "timelineText": "On April 30, 2013, Willem-Alexander becomes the first Dutch king in over a century after the abdication of his mother, Queen Beatrix."
+          "title": "2013",
+          "cardTitle": "Accession to the Throne",
+          "cardSubtitle": "",
+          "cardDetailedText": "On April 30, 2013, Willem-Alexander becomes the first Dutch king in over a century after the abdication of his mother, Queen Beatrix."
         },
         {
-          "timelineYears": "2014",
-          "timelineTitle": "Investiture as King",
-          "timelineSubtitle": "",
-          "timelineText": "The investiture ceremony takes place in Amsterdam on April 30, 2013, marking the official start of his reign."
+          "title": "2014",
+          "cardTitle": "Investiture as King",
+          "cardSubtitle": "",
+          "cardDetailedText": "The investiture ceremony takes place in Amsterdam on April 30, 2013, marking the official start of his reign."
         },
         {
-          "timelineYears": "2015",
-          "timelineTitle": "Birth of Princess Ariane",
-          "timelineSubtitle": "",
-          "timelineText": "On April 10, 2007, King Willem-Alexander and Queen Máxima welcome their third daughter, Princess Ariane."
+          "title": "2015",
+          "cardTitle": "Birth of Princess Ariane",
+          "cardSubtitle": "",
+          "cardDetailedText": "On April 10, 2007, King Willem-Alexander and Queen Máxima welcome their third daughter, Princess Ariane."
         },
         {
-          "timelineYears": "2018",
-          "timelineTitle": "State Visit to the UK",
-          "timelineSubtitle": "",
-          "timelineText": "In October 2018, King Willem-Alexander and Queen Máxima make a state visit to the United Kingdom."
+          "title": "2018",
+          "cardTitle": "State Visit to the UK",
+          "cardSubtitle": "",
+          "cardDetailedText": "In October 2018, King Willem-Alexander and Queen Máxima make a state visit to the United Kingdom."
         },
         {
-          "timelineYears": "2020",
-          "timelineTitle": "Response to COVID-19 Pandemic",
-          "timelineSubtitle": "",
-          "timelineText": "In 2020, like many other leaders, King Willem-Alexander addresses the challenges posed by the global COVID-19 pandemic."
+          "title": "2020",
+          "cardTitle": "Response to COVID-19 Pandemic",
+          "cardSubtitle": "",
+          "cardDetailedText": "In 2020, like many other leaders, King Willem-Alexander addresses the challenges posed by the global COVID-19 pandemic."
         },
         {
-          "timelineYears": "2022",
-          "timelineTitle": "Platinum Jubilee Celebration",
-          "timelineSubtitle": "",
-          "timelineText": "In 2022, King Willem-Alexander may participate in events celebrating the Platinum Jubilee of Queen Elizabeth II."
+          "title": "2022",
+          "cardTitle": "Platinum Jubilee Celebration",
+          "cardSubtitle": "",
+          "cardDetailedText": "In 2022, King Willem-Alexander may participate in events celebrating the Platinum Jubilee of Queen Elizabeth II."
         }
       ],
       "youtube": "",
@@ -141,64 +141,64 @@
       "photo": "src/images/members/queen-maxima.jpg",
       "timelineItems": [
         {
-          "timelineYears": "1971",
-          "timelineTitle": "Birth of Máxima",
-          "timelineSubtitle": "",
-          "timelineText": "On May 17, 1971, Máxima Zorreguieta Cerruti is born in Buenos Aires, Argentina."
+          "title": "1971",
+          "cardTitle": "Birth of Máxima",
+          "cardSubtitle": "",
+          "cardDetailedText": "On May 17, 1971, Máxima Zorreguieta Cerruti is born in Buenos Aires, Argentina."
         },
         {
-          "timelineYears": "1995",
-          "timelineTitle": "Education and Career",
-          "timelineSubtitle": "",
-          "timelineText": "Máxima completes her degree in Economics at Northlands School and later works in finance, including at Deutsche Bank."
+          "title": "1995",
+          "cardTitle": "Education and Career",
+          "cardSubtitle": "",
+          "cardDetailedText": "Máxima completes her degree in Economics at Northlands School and later works in finance, including at Deutsche Bank."
         },
         {
-          "timelineYears": "2001",
-          "timelineTitle": "Marriage to Willem-Alexander",
-          "timelineSubtitle": "",
-          "timelineText": "On February 2, 2002, Máxima marries Willem-Alexander, the Prince of Orange, becoming Princess Máxima of the Netherlands."
+          "title": "2001",
+          "cardTitle": "Marriage to Willem-Alexander",
+          "cardSubtitle": "",
+          "cardDetailedText": "On February 2, 2002, Máxima marries Willem-Alexander, the Prince of Orange, becoming Princess Máxima of the Netherlands."
         },
         {
-          "timelineYears": "2003",
-          "timelineTitle": "Birth of Catharina-Amalia",
-          "timelineSubtitle": "",
-          "timelineText": "On December 7, 2003, Máxima and Willem-Alexander welcome their first child, Princess Catharina-Amalia."
+          "title": "2003",
+          "cardTitle": "Birth of Catharina-Amalia",
+          "cardSubtitle": "",
+          "cardDetailedText": "On December 7, 2003, Máxima and Willem-Alexander welcome their first child, Princess Catharina-Amalia."
         },
         {
-          "timelineYears": "2005",
-          "timelineTitle": "Birth of Alexia",
-          "timelineSubtitle": "",
-          "timelineText": "On June 26, 2005, their second daughter, Princess Alexia, is born."
+          "title": "2005",
+          "cardTitle": "Birth of Alexia",
+          "cardSubtitle": "",
+          "cardDetailedText": "On June 26, 2005, their second daughter, Princess Alexia, is born."
         },
         {
-          "timelineYears": "2007",
-          "timelineTitle": "Birth of Ariane",
-          "timelineSubtitle": "",
-          "timelineText": "On April 10, 2007, Máxima gives birth to their third daughter, Princess Ariane."
+          "title": "2007",
+          "cardTitle": "Birth of Ariane",
+          "cardSubtitle": "",
+          "cardDetailedText": "On April 10, 2007, Máxima gives birth to their third daughter, Princess Ariane."
         },
         {
-          "timelineYears": "2013",
-          "timelineTitle": "Accession of Willem-Alexander",
-          "timelineSubtitle": "",
-          "timelineText": "On April 30, 2013, Willem-Alexander ascends the throne, and Máxima becomes Queen consort of the Netherlands."
+          "title": "2013",
+          "cardTitle": "Accession of Willem-Alexander",
+          "cardSubtitle": "",
+          "cardDetailedText": "On April 30, 2013, Willem-Alexander ascends the throne, and Máxima becomes Queen consort of the Netherlands."
         },
         {
-          "timelineYears": "2018",
-          "timelineTitle": "State Visit to the UK",
-          "timelineSubtitle": "",
-          "timelineText": "In October 2018, Queen Máxima accompanies King Willem-Alexander on a state visit to the United Kingdom."
+          "title": "2018",
+          "cardTitle": "State Visit to the UK",
+          "cardSubtitle": "",
+          "cardDetailedText": "In October 2018, Queen Máxima accompanies King Willem-Alexander on a state visit to the United Kingdom."
         },
         {
-          "timelineYears": "2020",
-          "timelineTitle": "COVID-19 Pandemic Response",
-          "timelineSubtitle": "",
-          "timelineText": "In 2020, Queen Máxima, alongside the royal family, addresses the challenges posed by the global COVID-19 pandemic."
+          "title": "2020",
+          "cardTitle": "COVID-19 Pandemic Response",
+          "cardSubtitle": "",
+          "cardDetailedText": "In 2020, Queen Máxima, alongside the royal family, addresses the challenges posed by the global COVID-19 pandemic."
         },
         {
-          "timelineYears": "2022",
-          "timelineTitle": "Platinum Jubilee Celebration",
-          "timelineSubtitle": "",
-          "timelineText": "In 2022, Queen Máxima may participate in events celebrating the Platinum Jubilee of Queen Elizabeth II."
+          "title": "2022",
+          "cardTitle": "Platinum Jubilee Celebration",
+          "cardSubtitle": "",
+          "cardDetailedText": "In 2022, Queen Máxima may participate in events celebrating the Platinum Jubilee of Queen Elizabeth II."
         }
       ],
       "youtube": "",
@@ -215,46 +215,46 @@
       "photo": "src/images/members/princess-beatrix.jpg",
       "timelineItems": [
         {
-          "timelineYears": "1938",
-          "timelineTitle": "Birth of Beatrix",
-          "timelineSubtitle": "",
-          "timelineText": "On January 31, 1938, Beatrix Wilhelmina Armgard is born in Soestdijk Palace, Netherlands."
+          "title": "1938",
+          "cardTitle": "Birth of Beatrix",
+          "cardSubtitle": "",
+          "cardDetailedText": "On January 31, 1938, Beatrix Wilhelmina Armgard is born in Soestdijk Palace, Netherlands."
         },
         {
-          "timelineYears": "1966",
-          "timelineTitle": "Marriage to Claus",
-          "timelineSubtitle": "",
-          "timelineText": "On March 10, 1966, Beatrix marries Claus von Amsberg, a German diplomat."
+          "title": "1966",
+          "cardTitle": "Marriage to Claus",
+          "cardSubtitle": "",
+          "cardDetailedText": "On March 10, 1966, Beatrix marries Claus von Amsberg, a German diplomat."
         },
         {
-          "timelineYears": "1967",
-          "timelineTitle": "Birth of Willem-Alexander",
-          "timelineSubtitle": "",
-          "timelineText": "On April 27, 1967, Beatrix becomes a mother with the birth of her first son, Willem-Alexander."
+          "title": "1967",
+          "cardTitle": "Birth of Willem-Alexander",
+          "cardSubtitle": "",
+          "cardDetailedText": "On April 27, 1967, Beatrix becomes a mother with the birth of her first son, Willem-Alexander."
         },
         {
-          "timelineYears": "1980",
-          "timelineTitle": "Ascension to the Throne",
-          "timelineSubtitle": "",
-          "timelineText": "On April 30, 1980, Beatrix becomes Queen of the Netherlands after the abdication of her mother, Queen Juliana."
+          "title": "1980",
+          "cardTitle": "Ascension to the Throne",
+          "cardSubtitle": "",
+          "cardDetailedText": "On April 30, 1980, Beatrix becomes Queen of the Netherlands after the abdication of her mother, Queen Juliana."
         },
         {
-          "timelineYears": "1981",
-          "timelineTitle": "Birth of Friso",
-          "timelineSubtitle": "",
-          "timelineText": "On September 25, 1968, Beatrix welcomes her second son, Prince Friso."
+          "title": "1981",
+          "cardTitle": "Birth of Friso",
+          "cardSubtitle": "",
+          "cardDetailedText": "On September 25, 1968, Beatrix welcomes her second son, Prince Friso."
         },
         {
-          "timelineYears": "2002",
-          "timelineTitle": "Abdication and Willem-Alexander's Reign",
-          "timelineSubtitle": "",
-          "timelineText": "On April 30, 2013, Beatrix abdicates in favor of her eldest son, Willem-Alexander, who becomes the King of the Netherlands."
+          "title": "2002",
+          "cardTitle": "Abdication and Willem-Alexander's Reign",
+          "cardSubtitle": "",
+          "cardDetailedText": "On April 30, 2013, Beatrix abdicates in favor of her eldest son, Willem-Alexander, who becomes the King of the Netherlands."
         },
         {
-          "timelineYears": "2013",
-          "timelineTitle": "Retirement",
-          "timelineSubtitle": "",
-          "timelineText": "Following her abdication, Beatrix retires from public duties and takes on a more private life."
+          "title": "2013",
+          "cardTitle": "Retirement",
+          "cardSubtitle": "",
+          "cardDetailedText": "Following her abdication, Beatrix retires from public duties and takes on a more private life."
         }
       ],
       "youtube": "",
@@ -271,40 +271,40 @@
       "photo": "src/images/members/princess-of-orange.jpg",
       "timelineItems": [
         {
-          "timelineYears": "2003",
-          "timelineTitle": "Birth of Catharina-Amalia",
-          "timelineSubtitle": "",
-          "timelineText": "On December 7, 2003, Catharina-Amalia Beatrix Carmen Victoria is born in The Hague, Netherlands."
+          "title": "2003",
+          "cardTitle": "Birth of Catharina-Amalia",
+          "cardSubtitle": "",
+          "cardDetailedText": "On December 7, 2003, Catharina-Amalia Beatrix Carmen Victoria is born in The Hague, Netherlands."
         },
         {
-          "timelineYears": "2013",
-          "timelineTitle": "Father's Accession to the Throne",
-          "timelineSubtitle": "",
-          "timelineText": "On April 30, 2013, Catharina-Amalia's father, Willem-Alexander, ascends the throne as the King of the Netherlands."
+          "title": "2013",
+          "cardTitle": "Father's Accession to the Throne",
+          "cardSubtitle": "",
+          "cardDetailedText": "On April 30, 2013, Catharina-Amalia's father, Willem-Alexander, ascends the throne as the King of the Netherlands."
         },
         {
-          "timelineYears": "2014",
-          "timelineTitle": "Investiture Ceremony",
-          "timelineSubtitle": "",
-          "timelineText": "Catharina-Amalia attends the investiture ceremony of her father in Amsterdam on April 30, 2013."
+          "title": "2014",
+          "cardTitle": "Investiture Ceremony",
+          "cardSubtitle": "",
+          "cardDetailedText": "Catharina-Amalia attends the investiture ceremony of her father in Amsterdam on April 30, 2013."
         },
         {
-          "timelineYears": "2019",
-          "timelineTitle": "Teenage Years",
-          "timelineSubtitle": "",
-          "timelineText": "As a teenager, Catharina-Amalia continues her education and takes on some royal duties and public appearances."
+          "title": "2019",
+          "cardTitle": "Teenage Years",
+          "cardSubtitle": "",
+          "cardDetailedText": "As a teenager, Catharina-Amalia continues her education and takes on some royal duties and public appearances."
         },
         {
-          "timelineYears": "2020",
-          "timelineTitle": "COVID-19 Pandemic",
-          "timelineSubtitle": "",
-          "timelineText": "In 2020, Catharina-Amalia, like many others, addresses challenges posed by the global COVID-19 pandemic."
+          "title": "2020",
+          "cardTitle": "COVID-19 Pandemic",
+          "cardSubtitle": "",
+          "cardDetailedText": "In 2020, Catharina-Amalia, like many others, addresses challenges posed by the global COVID-19 pandemic."
         },
         {
-          "timelineYears": "2022",
-          "timelineTitle": "Future Role",
-          "timelineSubtitle": "",
-          "timelineText": "As of 2022, Catharina-Amalia is expected to continue her education and gradually take on more responsibilities within the royal family."
+          "title": "2022",
+          "cardTitle": "Future Role",
+          "cardSubtitle": "",
+          "cardDetailedText": "As of 2022, Catharina-Amalia is expected to continue her education and gradually take on more responsibilities within the royal family."
         }
       ],
       "youtube": "",
@@ -321,40 +321,40 @@
       "photo": "src/images/members/princess-alexia.jpg",
       "timelineItems": [
         {
-          "timelineYears": "2005",
-          "timelineTitle": "Birth of Alexia",
-          "timelineSubtitle": "",
-          "timelineText": "On June 26, 2005, Alexia Juliana Marcela Laurentien is born in The Hague, Netherlands."
+          "title": "2005",
+          "cardTitle": "Birth of Alexia",
+          "cardSubtitle": "",
+          "cardDetailedText": "On June 26, 2005, Alexia Juliana Marcela Laurentien is born in The Hague, Netherlands."
         },
         {
-          "timelineYears": "2013",
-          "timelineTitle": "Father's Accession to the Throne",
-          "timelineSubtitle": "",
-          "timelineText": "On April 30, 2013, Alexia's father, Willem-Alexander, ascends the throne as the King of the Netherlands."
+          "title": "2013",
+          "cardTitle": "Father's Accession to the Throne",
+          "cardSubtitle": "",
+          "cardDetailedText": "On April 30, 2013, Alexia's father, Willem-Alexander, ascends the throne as the King of the Netherlands."
         },
         {
-          "timelineYears": "2014",
-          "timelineTitle": "Investiture Ceremony",
-          "timelineSubtitle": "",
-          "timelineText": "Alexia attends the investiture ceremony of her father in Amsterdam on April 30, 2013."
+          "title": "2014",
+          "cardTitle": "Investiture Ceremony",
+          "cardSubtitle": "",
+          "cardDetailedText": "Alexia attends the investiture ceremony of her father in Amsterdam on April 30, 2013."
         },
         {
-          "timelineYears": "2019",
-          "timelineTitle": "Teenage Years",
-          "timelineSubtitle": "",
-          "timelineText": "As a teenager, Alexia continues her education and engages in various royal duties and public events."
+          "title": "2019",
+          "cardTitle": "Teenage Years",
+          "cardSubtitle": "",
+          "cardDetailedText": "As a teenager, Alexia continues her education and engages in various royal duties and public events."
         },
         {
-          "timelineYears": "2020",
-          "timelineTitle": "COVID-19 Pandemic",
-          "timelineSubtitle": "",
-          "timelineText": "In 2020, Alexia, like many others, addresses challenges posed by the global COVID-19 pandemic."
+          "title": "2020",
+          "cardTitle": "COVID-19 Pandemic",
+          "cardSubtitle": "",
+          "cardDetailedText": "In 2020, Alexia, like many others, addresses challenges posed by the global COVID-19 pandemic."
         },
         {
-          "timelineYears": "2022",
-          "timelineTitle": "Future Role",
-          "timelineSubtitle": "",
-          "timelineText": "As of 2022, Alexia is expected to continue her education and gradually take on more responsibilities within the royal family."
+          "title": "2022",
+          "cardTitle": "Future Role",
+          "cardSubtitle": "",
+          "cardDetailedText": "As of 2022, Alexia is expected to continue her education and gradually take on more responsibilities within the royal family."
         }
       ],
       "youtube": "",
@@ -371,40 +371,40 @@
       "photo": "src/images/members/princess-ariane.jpg",
       "timelineItems": [
         {
-          "timelineYears": "2007",
-          "timelineTitle": "Birth of Ariane",
-          "timelineSubtitle": "",
-          "timelineText": "On April 10, 2007, Ariane Wilhelmina Máxima Ines is born in The Hague, Netherlands."
+          "title": "2007",
+          "cardTitle": "Birth of Ariane",
+          "cardSubtitle": "",
+          "cardDetailedText": "On April 10, 2007, Ariane Wilhelmina Máxima Ines is born in The Hague, Netherlands."
         },
         {
-          "timelineYears": "2013",
-          "timelineTitle": "Father's Accession to the Throne",
-          "timelineSubtitle": "",
-          "timelineText": "On April 30, 2013, Ariane's father, Willem-Alexander, ascends the throne as the King of the Netherlands."
+          "title": "2013",
+          "cardTitle": "Father's Accession to the Throne",
+          "cardSubtitle": "",
+          "cardDetailedText": "On April 30, 2013, Ariane's father, Willem-Alexander, ascends the throne as the King of the Netherlands."
         },
         {
-          "timelineYears": "2014",
-          "timelineTitle": "Investiture Ceremony",
-          "timelineSubtitle": "",
-          "timelineText": "Ariane attends the investiture ceremony of her father in Amsterdam on April 30, 2013."
+          "title": "2014",
+          "cardTitle": "Investiture Ceremony",
+          "cardSubtitle": "",
+          "cardDetailedText": "Ariane attends the investiture ceremony of her father in Amsterdam on April 30, 2013."
         },
         {
-          "timelineYears": "2019",
-          "timelineTitle": "Childhood Years",
-          "timelineSubtitle": "",
-          "timelineText": "Growing up, Ariane enjoys her childhood and family life, participating in various royal events."
+          "title": "2019",
+          "cardTitle": "Childhood Years",
+          "cardSubtitle": "",
+          "cardDetailedText": "Growing up, Ariane enjoys her childhood and family life, participating in various royal events."
         },
         {
-          "timelineYears": "2020",
-          "timelineTitle": "COVID-19 Pandemic",
-          "timelineSubtitle": "",
-          "timelineText": "In 2020, Ariane, like many others, addresses challenges posed by the global COVID-19 pandemic."
+          "title": "2020",
+          "cardTitle": "COVID-19 Pandemic",
+          "cardSubtitle": "",
+          "cardDetailedText": "In 2020, Ariane, like many others, addresses challenges posed by the global COVID-19 pandemic."
         },
         {
-          "timelineYears": "2022",
-          "timelineTitle": "Future Years",
-          "timelineSubtitle": "",
-          "timelineText": "As of 2022, Ariane continues her education and is expected to gradually take on more responsibilities within the royal family."
+          "title": "2022",
+          "cardTitle": "Future Years",
+          "cardSubtitle": "",
+          "cardDetailedText": "As of 2022, Ariane continues her education and is expected to gradually take on more responsibilities within the royal family."
         }
       ],
       "youtube": "",
@@ -421,58 +421,58 @@
       "photo": "src/images/members/prince-constantijn.jpg",
       "timelineItems": [
         {
-          "timelineYears": "1969",
-          "timelineTitle": "Birth of Constantijn",
-          "timelineSubtitle": "",
-          "timelineText": "On October 11, 1969, Constantijn Christof Frederik Aschwin is born in Utrecht, Netherlands."
+          "title": "1969",
+          "cardTitle": "Birth of Constantijn",
+          "cardSubtitle": "",
+          "cardDetailedText": "On October 11, 1969, Constantijn Christof Frederik Aschwin is born in Utrecht, Netherlands."
         },
         {
-          "timelineYears": "1969",
-          "timelineTitle": "Christening",
-          "timelineSubtitle": "",
-          "timelineText": "Prince Constantijn is christened on December 19, 1969."
+          "title": "1969",
+          "cardTitle": "Christening",
+          "cardSubtitle": "",
+          "cardDetailedText": "Prince Constantijn is christened on December 19, 1969."
         },
         {
-          "timelineYears": "1995",
-          "timelineTitle": "Education and Career",
-          "timelineSubtitle": "",
-          "timelineText": "Constantijn studies law at Leiden University and later works in various roles, including at the European Commission."
+          "title": "1995",
+          "cardTitle": "Education and Career",
+          "cardSubtitle": "",
+          "cardDetailedText": "Constantijn studies law at Leiden University and later works in various roles, including at the European Commission."
         },
         {
-          "timelineYears": "2001",
-          "timelineTitle": "Marriage to Laurentien",
-          "timelineSubtitle": "",
-          "timelineText": "On May 19, 2001, Constantijn marries Laurentien Brinkhorst."
+          "title": "2001",
+          "cardTitle": "Marriage to Laurentien",
+          "cardSubtitle": "",
+          "cardDetailedText": "On May 19, 2001, Constantijn marries Laurentien Brinkhorst."
         },
         {
-          "timelineYears": "2003",
-          "timelineTitle": "Birth of Eloise",
-          "timelineSubtitle": "",
-          "timelineText": "On June 8, 2002, Prince Constantijn and Princess Laurentien welcome their first child, Eloise Sophie Beatrix Laurence."
+          "title": "2003",
+          "cardTitle": "Birth of Eloise",
+          "cardSubtitle": "",
+          "cardDetailedText": "On June 8, 2002, Prince Constantijn and Princess Laurentien welcome their first child, Eloise Sophie Beatrix Laurence."
         },
         {
-          "timelineYears": "2005",
-          "timelineTitle": "Birth of Claus-Casimir",
-          "timelineSubtitle": "",
-          "timelineText": "On March 21, 2004, their second son, Claus-Casimir Bernhard Marius Max, is born."
+          "title": "2005",
+          "cardTitle": "Birth of Claus-Casimir",
+          "cardSubtitle": "",
+          "cardDetailedText": "On March 21, 2004, their second son, Claus-Casimir Bernhard Marius Max, is born."
         },
         {
-          "timelineYears": "2006",
-          "timelineTitle": "Birth of Leonore",
-          "timelineSubtitle": "",
-          "timelineText": "On June 3, 2006, Prince Constantijn and Princess Laurentien welcome their second daughter, Leonore Marie Irene Enrica."
+          "title": "2006",
+          "cardTitle": "Birth of Leonore",
+          "cardSubtitle": "",
+          "cardDetailedText": "On June 3, 2006, Prince Constantijn and Princess Laurentien welcome their second daughter, Leonore Marie Irene Enrica."
         },
         {
-          "timelineYears": "2013",
-          "timelineTitle": "Willem-Alexander's Ascension",
-          "timelineSubtitle": "",
-          "timelineText": "On April 30, 2013, Constantijn's older brother, Willem-Alexander, ascends the throne as the King of the Netherlands."
+          "title": "2013",
+          "cardTitle": "Willem-Alexander's Ascension",
+          "cardSubtitle": "",
+          "cardDetailedText": "On April 30, 2013, Constantijn's older brother, Willem-Alexander, ascends the throne as the King of the Netherlands."
         },
         {
-          "timelineYears": "2022",
-          "timelineTitle": "Platinum Jubilee Celebration",
-          "timelineSubtitle": "",
-          "timelineText": "In 2022, Prince Constantijn may participate in events celebrating the Platinum Jubilee of Queen Elizabeth II."
+          "title": "2022",
+          "cardTitle": "Platinum Jubilee Celebration",
+          "cardSubtitle": "",
+          "cardDetailedText": "In 2022, Prince Constantijn may participate in events celebrating the Platinum Jubilee of Queen Elizabeth II."
         }
       ],
       "youtube": "",
@@ -489,58 +489,58 @@
       "photo": "src/images/members/princess-laurentien.jpg",
       "timelineItems": [
         {
-          "timelineYears": "1966",
-          "timelineTitle": "Birth of Laurentien",
-          "timelineSubtitle": "",
-          "timelineText": "On May 25, 1966, Petra Laurentien Brinkhorst is born in Leiden, Netherlands."
+          "title": "1966",
+          "cardTitle": "Birth of Laurentien",
+          "cardSubtitle": "",
+          "cardDetailedText": "On May 25, 1966, Petra Laurentien Brinkhorst is born in Leiden, Netherlands."
         },
         {
-          "timelineYears": "1966",
-          "timelineTitle": "Christening",
-          "timelineSubtitle": "",
-          "timelineText": "Princess Laurentien is christened on June 19, 1966."
+          "title": "1966",
+          "cardTitle": "Christening",
+          "cardSubtitle": "",
+          "cardDetailedText": "Princess Laurentien is christened on June 19, 1966."
         },
         {
-          "timelineYears": "1990s",
-          "timelineTitle": "Education and Early Career",
-          "timelineSubtitle": "",
-          "timelineText": "Laurentien studies economics and later works in various roles, including at the European Patent Office."
+          "title": "1990s",
+          "cardTitle": "Education and Early Career",
+          "cardSubtitle": "",
+          "cardDetailedText": "Laurentien studies economics and later works in various roles, including at the European Patent Office."
         },
         {
-          "timelineYears": "2001",
-          "timelineTitle": "Marriage to Constantijn",
-          "timelineSubtitle": "",
-          "timelineText": "On May 19, 2001, Laurentien Brinkhorst marries Prince Constantijn of the Netherlands."
+          "title": "2001",
+          "cardTitle": "Marriage to Constantijn",
+          "cardSubtitle": "",
+          "cardDetailedText": "On May 19, 2001, Laurentien Brinkhorst marries Prince Constantijn of the Netherlands."
         },
         {
-          "timelineYears": "2003",
-          "timelineTitle": "Birth of Eloise",
-          "timelineSubtitle": "",
-          "timelineText": "On June 8, 2002, Princess Laurentien and Prince Constantijn welcome their first child, Eloise Sophie Beatrix Laurence."
+          "title": "2003",
+          "cardTitle": "Birth of Eloise",
+          "cardSubtitle": "",
+          "cardDetailedText": "On June 8, 2002, Princess Laurentien and Prince Constantijn welcome their first child, Eloise Sophie Beatrix Laurence."
         },
         {
-          "timelineYears": "2005",
-          "timelineTitle": "Birth of Claus-Casimir",
-          "timelineSubtitle": "",
-          "timelineText": "On March 21, 2004, their second son, Claus-Casimir Bernhard Marius Max, is born."
+          "title": "2005",
+          "cardTitle": "Birth of Claus-Casimir",
+          "cardSubtitle": "",
+          "cardDetailedText": "On March 21, 2004, their second son, Claus-Casimir Bernhard Marius Max, is born."
         },
         {
-          "timelineYears": "2006",
-          "timelineTitle": "Birth of Leonore",
-          "timelineSubtitle": "",
-          "timelineText": "On June 3, 2006, Princess Laurentien and Prince Constantijn welcome their second daughter, Leonore Marie Irene Enrica."
+          "title": "2006",
+          "cardTitle": "Birth of Leonore",
+          "cardSubtitle": "",
+          "cardDetailedText": "On June 3, 2006, Princess Laurentien and Prince Constantijn welcome their second daughter, Leonore Marie Irene Enrica."
         },
         {
-          "timelineYears": "2010",
-          "timelineTitle": "Activities in Literacy and Culture",
-          "timelineSubtitle": "",
-          "timelineText": "Laurentien is known for her involvement in literacy and cultural activities, promoting reading and education."
+          "title": "2010",
+          "cardTitle": "Activities in Literacy and Culture",
+          "cardSubtitle": "",
+          "cardDetailedText": "Laurentien is known for her involvement in literacy and cultural activities, promoting reading and education."
         },
         {
-          "timelineYears": "2022",
-          "timelineTitle": "Platinum Jubilee Celebration",
-          "timelineSubtitle": "",
-          "timelineText": "In 2022, Princess Laurentien may participate in events celebrating the Platinum Jubilee of Queen Elizabeth II."
+          "title": "2022",
+          "cardTitle": "Platinum Jubilee Celebration",
+          "cardSubtitle": "",
+          "cardDetailedText": "In 2022, Princess Laurentien may participate in events celebrating the Platinum Jubilee of Queen Elizabeth II."
         }
       ],
       "youtube": "",
@@ -557,64 +557,64 @@
       "photo": "src/images/members/princess-margriet.jpg",
       "timelineItems": [
         {
-          "timelineYears": "1943",
-          "timelineTitle": "Birth of Margriet",
-          "timelineSubtitle": "",
-          "timelineText": "On January 19, 1943, Princess Margriet Francisca is born in Ottawa, Canada."
+          "title": "1943",
+          "cardTitle": "Birth of Margriet",
+          "cardSubtitle": "",
+          "cardDetailedText": "On January 19, 1943, Princess Margriet Francisca is born in Ottawa, Canada."
         },
         {
-          "timelineYears": "1943",
-          "timelineTitle": "Canadian Birth",
-          "timelineSubtitle": "",
-          "timelineText": "Princess Margriet's birth takes place at the Ottawa Civic Hospital, as her mother, Princess Juliana, sought refuge in Canada during World War II."
+          "title": "1943",
+          "cardTitle": "Canadian Birth",
+          "cardSubtitle": "",
+          "cardDetailedText": "Princess Margriet's birth takes place at the Ottawa Civic Hospital, as her mother, Princess Juliana, sought refuge in Canada during World War II."
         },
         {
-          "timelineYears": "1948",
-          "timelineTitle": "Return to the Netherlands",
-          "timelineSubtitle": "",
-          "timelineText": "After the war, Princess Margriet returns to the Netherlands with her family."
+          "title": "1948",
+          "cardTitle": "Return to the Netherlands",
+          "cardSubtitle": "",
+          "cardDetailedText": "After the war, Princess Margriet returns to the Netherlands with her family."
         },
         {
-          "timelineYears": "1967",
-          "timelineTitle": "Marriage to Pieter van Vollenhoven",
-          "timelineSubtitle": "",
-          "timelineText": "On January 10, 1967, Princess Margriet marries Pieter van Vollenhoven."
+          "title": "1967",
+          "cardTitle": "Marriage to Pieter van Vollenhoven",
+          "cardSubtitle": "",
+          "cardDetailedText": "On January 10, 1967, Princess Margriet marries Pieter van Vollenhoven."
         },
         {
-          "timelineYears": "1972",
-          "timelineTitle": "Birth of Maurits",
-          "timelineSubtitle": "",
-          "timelineText": "On April 17, 1968, Princess Margriet and Pieter van Vollenhoven welcome their first son, Maurits."
+          "title": "1972",
+          "cardTitle": "Birth of Maurits",
+          "cardSubtitle": "",
+          "cardDetailedText": "On April 17, 1968, Princess Margriet and Pieter van Vollenhoven welcome their first son, Maurits."
         },
         {
-          "timelineYears": "1975",
-          "timelineTitle": "Birth of Bernhard",
-          "timelineSubtitle": "",
-          "timelineText": "On December 25, 1969, their second son, Bernhard, is born."
+          "title": "1975",
+          "cardTitle": "Birth of Bernhard",
+          "cardSubtitle": "",
+          "cardDetailedText": "On December 25, 1969, their second son, Bernhard, is born."
         },
         {
-          "timelineYears": "1980",
-          "timelineTitle": "Birth of Pieter-Christiaan",
-          "timelineSubtitle": "",
-          "timelineText": "On March 22, 1972, Princess Margriet and Pieter van Vollenhoven's third son, Pieter-Christiaan, is born."
+          "title": "1980",
+          "cardTitle": "Birth of Pieter-Christiaan",
+          "cardSubtitle": "",
+          "cardDetailedText": "On March 22, 1972, Princess Margriet and Pieter van Vollenhoven's third son, Pieter-Christiaan, is born."
         },
         {
-          "timelineYears": "1986",
-          "timelineTitle": "Birth of Floris",
-          "timelineSubtitle": "",
-          "timelineText": "On April 10, 1975, their fourth son, Floris, is born."
+          "title": "1986",
+          "cardTitle": "Birth of Floris",
+          "cardSubtitle": "",
+          "cardDetailedText": "On April 10, 1975, their fourth son, Floris, is born."
         },
         {
-          "timelineYears": "1987",
-          "timelineTitle": "Activities and Patronages",
-          "timelineSubtitle": "",
-          "timelineText": "Princess Margriet is involved in various charitable activities and serves as a patron of several organizations."
+          "title": "1987",
+          "cardTitle": "Activities and Patronages",
+          "cardSubtitle": "",
+          "cardDetailedText": "Princess Margriet is involved in various charitable activities and serves as a patron of several organizations."
         },
         {
-          "timelineYears": "2022",
-          "timelineTitle": "Platinum Jubilee Celebration",
-          "timelineSubtitle": "",
-          "timelineText": "In 2022, Princess Margriet may participate in events celebrating the Platinum Jubilee of Queen Elizabeth II."
+          "title": "2022",
+          "cardTitle": "Platinum Jubilee Celebration",
+          "cardSubtitle": "",
+          "cardDetailedText": "In 2022, Princess Margriet may participate in events celebrating the Platinum Jubilee of Queen Elizabeth II."
         }
       ],
       "youtube": "",
