@@ -10,6 +10,7 @@ import {useLocation} from "react-router-dom";
 
 const AnimatedItemNavbar = () => {
     const { t } = useTranslation();
+    const navbar = t("navbar", { returnObjects: true });
     const location = useLocation();
 
     const [anchorEl, setAnchorEl] = React.useState(null);
@@ -31,17 +32,17 @@ const AnimatedItemNavbar = () => {
                     to={p_home}
                     onClick={handleMenuClose}
                     isSelected={location.pathname === p_home}
-                    label={t('navbar.home')}
+                    label={navbar['home']}
                 />
                 <AnimatedItem
                     to={p_family_members}
                     onClick={handleMenuClose}
                     isSelected={location.pathname === p_family_members}
-                    label={t('navbar.familyMembers')}
+                    label={navbar['familyMembers']}
                 />
                 <AnimatedItem
                     onClick={() => {handleMenuClose(); swapLanguage();}}
-                    label={t('navbar.current_language')}
+                    label={navbar['current_language']}
                 />
             </Menu>
         </>

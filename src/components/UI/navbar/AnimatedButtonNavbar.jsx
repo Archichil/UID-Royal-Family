@@ -7,6 +7,8 @@ import {useLocation} from "react-router-dom";
 
 const AnimatedButtonNavbar = () => {
     const { t } = useTranslation();
+    const navbar = t("navbar", { returnObjects: true });
+
     const location = useLocation();
 
     return (
@@ -14,16 +16,16 @@ const AnimatedButtonNavbar = () => {
             <AnimatedButton
                 to={p_home}
                 isSelected={location.pathname === p_home}
-                label={t('navbar.home')}
+                label={navbar['home']}
             />
             <AnimatedButton
                 to={p_family_members}
                 isSelected={location.pathname === p_family_members}
-                label={t('navbar.familyMembers')}
+                label={navbar['familyMembers']}
             />
             <AnimatedButton
                 onClick={swapLanguage}
-                label={t('navbar.current_language')}
+                label={navbar['current_language']}
             />
         </>
     );

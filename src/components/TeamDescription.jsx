@@ -8,17 +8,18 @@ import {useTranslation} from "react-i18next";
 
 const TeamDescription = () => {
     const { t } = useTranslation();
+    const authors = t("authors", { returnObjects: true });
     const teamMembers = [
-        { name: t('authors.egor.name'), github: 'https://github.com/riborok', instagram: 'https://www.instagram.com/egorpnkrtw/', telegram: 'https://t.me/egorpnkrtw', alias: t('authors.egor.alias'), image: "https://avatars.githubusercontent.com/u/112758007?v=4" },
-        { name: t('authors.artur.name'), github: 'https://github.com/Archichil', instagram: 'https://www.instagram.com/k.archichil/', telegram: 'https://t.me/Archichil', alias: t('authors.artur.alias'), image: t('authors.artur.img-url')},
-        { name: t('authors.stas.name'), github: 'https://github.com/Ferret451', instagram: 'https://www.instagram.com/ferrett451/', telegram: 'https://t.me/Ferret451', alias: t('authors.stas.alias'), image: "https://avatars.githubusercontent.com/u/112757776?v=4"},
-        { name: t('authors.yana.name'), github: 'https://github.com/Rawwzer', instagram: 'https://www.instagram.com/rawwzero/', telegram: 'https://t.me/RawwZer', alias: t('authors.yana.alias'), image: "https://avatars.githubusercontent.com/u/82700519?v=4"}
+        { name: authors['egor']['name'], github: 'https://github.com/riborok', instagram: 'https://www.instagram.com/egorpnkrtw/', telegram: 'https://t.me/egorpnkrtw', alias:  authors['egor']['alias'], image: "https://avatars.githubusercontent.com/u/112758007?v=4" },
+        { name: authors['artur']['name'], github: 'https://github.com/Archichil', instagram: 'https://www.instagram.com/k.archichil/', telegram: 'https://t.me/Archichil', alias: authors['artur']['alias'], image: authors['artur']['img-url']},
+        { name: authors['stas']['name'], github: 'https://github.com/Ferret451', instagram: 'https://www.instagram.com/ferrett451/', telegram: 'https://t.me/Ferret451', alias: authors['stas']['alias'], image: "https://avatars.githubusercontent.com/u/112757776?v=4"},
+        { name: authors['yana']['name'], github: 'https://github.com/Rawwzer', instagram: 'https://www.instagram.com/rawwzero/', telegram: 'https://t.me/RawwZer', alias: authors['yana']['alias'], image: "https://avatars.githubusercontent.com/u/82700519?v=4"}
     ];
 
     return (
         <div>
             <Typography variant="h3" className={"team-h2"} style={{fontFamily: 'Raleway'}}>
-                {t('authors.title')}
+                {authors['title']}
             </Typography>
             <Grid className={"dev-cards"} container spacing={2} justifyContent="center" style={{ marginTop: '1%' }}>
                 {teamMembers.map((member, index) => (

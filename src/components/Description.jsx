@@ -6,11 +6,13 @@ import "../css/Description.css"
 import {useTranslation} from "react-i18next";
 
 const Description = () => {
-    const {t} = useTranslation();
+    const { t } = useTranslation();
+    const titles = t("description.titles", { returnObjects: true });
+    const info = t("description.info", { returnObjects: true });
 
-    const cardsInfo1 = <DescriptionCardInfo width='400px' height='320px' title={t('description.titles.about')} info={t('description.info.about')} />
-    const cardsInfo2 = <DescriptionCardInfo width='400px' height='320px' title={t('description.titles.aims')} info={t('description.info.aims')} />
-    const cardsInfo3 = <DescriptionCardInfo width='400px' height='320px' title={t('description.titles.toWhom')} info={t('description.info.toWhom')} />
+    const cardsInfo1 = <DescriptionCardInfo width='400px' height='320px' title={titles['about']} info={info['about']} />
+    const cardsInfo2 = <DescriptionCardInfo width='400px' height='320px' title={titles['aims']} info={info['aims']} />
+    const cardsInfo3 = <DescriptionCardInfo width='400px' height='320px' title={titles['toWhom']} info={info['toWhom']} />
 
     return (
         <Container className='mainContainer' maxWidth="fm">
