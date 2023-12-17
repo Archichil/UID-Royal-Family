@@ -42,23 +42,18 @@
     }
   },
   "search": "Поиск",
-  "familyMembersName": {
-    "willem": "Король Вильям-Александр",
-    "maxima": "Королева Максима",
-    "beatrix": "Принцесса Беатрикс",
-    "orange": "Принцесса Апельсин",
-    "alex": "Принцесса Алексия",
-    "ariane": "Принцесса Ариана",
-    "const": "Принц Константин",
-    "laurien": "Принцесса Лаурентен",
-    "margriet": "Принцесса Маргарет"
-  },
   "familyMembers": {
     "king-willem-alexander": {
       "name": "Король Виллем-Александр",
       "age": "56",
       "birthdayDate": "27 апреля 1967 г.",
-      "images": [],
+      "images": [
+        "https://www.royal-house.nl/binaries/medium/content/gallery/royalhouse/content-afbeeldingen/fotonavigatie-450x300/portretfotos/king-willem-alexander-2020-01-3-2.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Zijne_Majesteit_Koning_Willem-Alexander_met_koningsmantel_april_2013.jpeg/1200px-Zijne_Majesteit_Koning_Willem-Alexander_met_koningsmantel_april_2013.jpeg",
+        "https://static.independent.co.uk/s3fs-public/thumbnails/image/2013/09/17/16/web-dutch-king-getty.jpg?quality=75&width=990&crop=3%3A2%2Csmart&auto=webp",
+        "https://www.holland.com/upload_mm/0/6/5/56246_fullimage_willem-alexander%202015_1600x1067.jpg",
+        "https://cdn.punchng.com/wp-content/uploads/2023/07/01205510/Dutch-king-Willem-Alexander.jpeg"
+      ],
       "description": "Виллем-Александр — король Нидерландов, вступивший на престол после отречения своей матери в 2013 году.",
       "photo": "src/images/members/king-willem-alexander.jpg",
       "timelineItems": [
@@ -136,7 +131,13 @@
       "name": "Королева Максима",
       "age": "52",
       "birthdayDate": "17 мая 1971 г.",
-      "images": [],
+      "images": [
+        "https://www.royal-house.nl/binaries/medium/content/gallery/royalhouse/content-afbeeldingen/fotonavigatie-450x300/portretfotos/queen-maxima-2020-01-3-2.jpg",
+        "https://media.tatler.com/photos/640868d6b5731ba7c45550fb/master/w_1600%2Cc_limit/Tiara_080323_GettyImages-1471970498.jpg",
+        "https://assets.vogue.in/photos/6363907b1adf82066dc5ead4/2:3/w_1600,c_limit/Maxima_021122_GettyImages-1438058082.jpg",
+        "https://api.time.com/wp-content/uploads/2016/01/time-100-2016-queen-maxima-netherlands.jpg?quality=85&w=800",
+        "https://people.com/thmb/WqTrur7CoBvjEtf5vUn18_pAJaQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2)/Queen-Maxima-tiara-3-26af8c2dc93e44539173ed0282fb9240.jpg"
+      ],
       "description": "Максима (урожденная Максима Соррегьета) — королева Нидерландов, жена короля Виллема-Александра.",
       "photo": "src/images/members/queen-maxima.jpg",
       "timelineItems": [
@@ -208,7 +209,13 @@
       "name": "Принцесса Беатрикс",
       "age": "85",
       "birthdayDate": "31 января 1938 г.",
-      "images": [],
+      "images": [
+        "https://www.royal-house.nl/binaries/medium/content/gallery/royalhouse/content-afbeeldingen/portretfoto-s/prinses-beatrix/princess-beatrix-2020-1.jpg",
+        "https://people.com/thmb/nFSZtdh_KOcTFxwLKPokQVmMX_U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(999x0:1001x2)/gettyimages-631970040-2000-46b3a14f892f4c3cb1e0b4dcc8745ee8.jpg",
+        "https://images.hellomagazine.com/horizon/square/6454445558bf-queen-beatrix.jpg",
+        "https://www.royal-house.nl/binaries/large/content/gallery/royalhouse/content-afbeeldingen/portretfoto-s/prinses-beatrix/princess-beatrix-02.jpg",
+        "https://cdn.britannica.com/97/31097-004-791DA73A/Beatrix-of-The-Netherlands.jpg"
+      ],
       "description": "Беатрикс — член голландского королевского дома, которая правила королевой Нидерландов с 1980 года до своего отречения от престола в 2013 году.",
       "photo": "src/images/members/princess-beatrix.jpg",
       "timelineItems": [
@@ -262,7 +269,13 @@
       "name": "Принцесса Апельсин",
       "age": "20",
       "birthdayDate": "7 декабря 2003 г.",
-      "images": [],
+      "images": [
+        "https://www.royal-house.nl/binaries/medium/content/gallery/royalhouse/content-afbeeldingen/fotonavigatie-450x300/portretfotos/princesss-of-orange-2021-03.jpg",
+        "https://images.hola.com/us/images/0286-193ad2aa9125-c735c548a297-1000/horizontal-800/queen-maxima-s-daughter-stuns-at-gala-dinner.jpg",
+        "https://people.com/thmb/rpA3wZAJUoNneDWkLQYcdtBCsEY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(807x0:809x2)/princess-amalia-af17285d7eee41a78a46b2846905cf06.jpg",
+        "https://www.royal-house.nl/binaries/large/content/gallery/royalhouse/content-afbeeldingen/portretfoto-s/de-prinses-van-oranje/princess-of-orange-2021-11-15-5.jpg",
+        "https://pbs.twimg.com/media/FdHaM-iXoAAOlrb.jpg"
+      ],
       "description": "Катарина-Амалия, принцесса Апельсин, является наследницей престола Королевства Нидерландов, в состав которого входят Аруба, Кюрасао, Нидерланды и Синт-Мартен.",
       "photo": "src/images/members/princess-of-orange.jpg",
       "timelineItems": [
@@ -310,7 +323,13 @@
       "name": "Принцесса Алексия",
       "age": "18",
       "birthdayDate": "26 июня 2005 г.",
-      "images": [],
+      "images": [
+        "https://www.royal-house.nl/binaries/medium/content/gallery/royalhouse/content-afbeeldingen/fotonavigatie-450x300/portretfotos/2023-princess-alexia-03-small.jpg",
+        "https://people.com/thmb/wGslXOY5rGu8Jj7l84RXJIDmDNw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(729x126:731x128)/Princess-Alexia-of-the-Netherlands-Celebrates-Graduation-with-a-Dutch-Tradition-071023-488c7316e6644e9497f8cd82231f54c4.jpg",
+        "https://i.dailymail.co.uk/1s/2023/09/09/11/75242347-12498789-image-a-84_1694254219968.jpg",
+        "https://media.tatler.com/photos/64ae7b292d2f64fb4d90b461/4:3/w_4740,h_3555,c_limit/1234004931",
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiLGAlgxQ5mq3JkYbD2-yDqksUYlFPR6Pub_VNP9b0-Hs41rHBuuKyspMzu11sHb6za9OP5xNEU7CV_RKR8GkZs-OIAJBgwYC4e72w4VOLopRpo2W9BLKhUYKqj_cbAtSk1ehBHRA_yIJWD-uovRHt70U_zNzXFDuRyG2m_5V6jSJjedGxpLoGirB1a68/s800/princess-alexia-in-oscar-de-la-renta-dress-4.jpg"
+      ],
       "description": "Принцесса Нидерландов Алексия, принцесса Оранж-Нассау, вторая дочь Виллема-Александра Нидерландов и королевы Нидерландов Максимы. ",
       "photo": "src/images/members/princess-alexia.jpg",
       "timelineItems": [
@@ -358,7 +377,13 @@
       "name": "Принцесса Ариана",
       "age": "16",
       "birthdayDate": "10 апреля 2007 г.",
-      "images": [],
+      "images": [
+        "https://www.royal-house.nl/binaries/medium/content/gallery/royalhouse/content-afbeeldingen/fotonavigatie-450x300/portretfotos/2020-princess-ariane-1200x800.jpg",
+        "https://media.tatler.com/photos/643470b0f0f02b2b7e1ce45a/master/w_1600%2Cc_limit/1438956294",
+        "https://images.hola.com/imagenes/realeza/casa_holanda/20230420230423/amalia-ariane-holanda-concierto-dia-del-rey/1-237-839/ariane-holanda-gtres6-a.jpg",
+        "https://nltimes.nl/sites/nltimes.nl/files/styles/news_article_full/public/ariane-1.jpg?h=b6fe4eaf",
+        "https://i.pinimg.com/736x/8c/8a/0f/8c8a0fdd905e7cdac5556f8a0fd09b11.jpg"
+      ],
       "description": "Принцесса Нидерландов Ариана, принцесса Оранж-Нассау, третья и младшая дочь короля Виллема-Александра и королевы Максимы. ",
       "photo": "src/images/members/princess-ariane.jpg",
       "timelineItems": [
@@ -403,10 +428,16 @@
       "googlemap": ""
     },
     "prince-constantijn": {
-      "name": "Князь Константин",
+      "name": "Принц Константин",
       "age": "54",
       "birthdayDate": "11 октября 1969 г. ",
-      "images": [],
+      "images": [
+        "https://www.royal-house.nl/binaries/medium/content/gallery/royalhouse/content-afbeeldingen/portretfoto-s/prins-constantijn/prince-constantijn-03-2020.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Prince_Constantijn_2013_cropped.jpg/220px-Prince_Constantijn_2013_cropped.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Digital_and_open_government-_next_step_to_maturity_%2827314980062%29_%28cropped%29.jpg/266px-Digital_and_open_government-_next_step_to_maturity_%2827314980062%29_%28cropped%29.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc_vx-Jn3OJqYjjjXJ4TJ014rTceGvvhTZeg&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmxxP2CAfPGJf2HaOj9Zm2f4tuI0C-y8jtEg&usqp=CAU"
+      ],
       "description": "Принц Нидерландов Константин — третий и младший сын бывшей голландской королевы Беатрикс и ее мужа Клауса фон Амсберга, а также младший брат правящего голландского короля Виллема-Александра. ",
       "photo": "src/images/members/prince-constantijn.jpg",
       "timelineItems": [
@@ -472,8 +503,14 @@
       "name": "Принцесса Лорентен",
       "age": "57",
       "birthdayDate": "25 мая 1966 г. ",
-      "images": [],
-      "description": "Принцесса Нидерландов Лаурентиен (урожденная Петра Лаурентиен Бринкхорст) — жена принца Константина и невестка короля Нидерландов Виллема-Александра.",
+      "images": [
+        "https://www.royal-house.nl/binaries/medium/content/gallery/royalhouse/content-afbeeldingen/portretfoto-s/prinses-laurentien/princess-laurentien-03-2020.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/60/Princess_Laurentien_of_the_Netherlands_%28cropped%29.JPG",
+        "https://m.media-amazon.com/images/M/MV5BZDFjZThiNjAtZWQzMS00NWY4LWI0MjAtMjRiOGEzMGY5MWY2XkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_FMjpg_UX1000_.jpg",
+        "https://i0.wp.com/www.thecourtjeweller.com/wp-content/uploads/2022/05/2022-0516-laurentien03.jpg?resize=1200%2C1953&ssl=1",
+        "https://royalhats.files.wordpress.com/2022/10/2022-10-11-state-visit-to-sweden-1-beret-pink-250.jpg?w=187"
+      ],
+      "description": "Принцесса Нидерландов Лорентен (урожденная Петра Лорентен Бринкхорст) — жена принца Константина и невестка короля Нидерландов Виллема-Александра.",
       "photo": "src/images/members/princess-laurentien.jpg",
       "timelineItems": [
         {
@@ -486,7 +523,7 @@
           "title": "1966",
           "cardTitle": "Крещение",
           "cardSubtitle": "",
-          "cardDetailedText": "Принцессу Лаурентиан крестили 19 июня 1966 года."
+          "cardDetailedText": "Принцессу Лорентен крестили 19 июня 1966 года."
         },
         {
           "title": "1990-е",
@@ -516,7 +553,7 @@
           "title": "2006",
           "cardTitle": "Рождение Леоноры",
           "cardSubtitle": "",
-          "cardDetailedText": "3 июня 2006 года у принцессы Лаурентиен и принца Константина родилась вторая дочь, Леонора Мари Ирен Энрика."
+          "cardDetailedText": "3 июня 2006 года у принцессы Лорентен и принца Константина родилась вторая дочь, Леонора Мари Ирен Энрика."
         },
         {
           "title": "2010",
@@ -538,7 +575,13 @@
       "name": "Принцесса Маргрит",
       "age": "80",
       "birthdayDate": "19 января 1943 г.",
-      "images": [],
+      "images": [
+        "https://www.royal-house.nl/binaries/medium/content/gallery/royalhouse/content-afbeeldingen/fotonavigatie-450x300/portretfotos/princess-margriet-2020-01-3-2.jpg",
+        "https://royalcentral.co.uk/wp-content/uploads/2023/01/portret-prinses-margriet-2023-01.jpg",
+        "https://3.bp.blogspot.com/-zhkkLocpyZw/WIDYz073BWI/AAAAAAABSEc/QhSXEpbcUBQmkh_KlxvLr_sHlXhC8uZ-QCLcB/s595-rw/Princess-Margriet.jpg",
+        "https://people.com/thmb/YDbWPz89etNPgq6RDOjSKFRIJG0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2)/Princess-Margaret-121423-1-1255c5a318684f03a7037a1f26be1d67.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Princess_Margriet_of_the_Netherlands_1964.jpg/170px-Princess_Margriet_of_the_Netherlands_1964.jpg"
+      ],
       "description": "Принцесса Нидерландов Маргрит (Маргрит Франциска) — третья дочь королевы Юлианы и принца Бернхарда. ",
       "photo": "src/images/members/princess-margriet.jpg",
       "timelineItems": [

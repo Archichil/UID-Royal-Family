@@ -24,7 +24,7 @@ const Doer = () => {
                  justifyContent="center"
                  className="descriptDoer">
                 <div className="photoDoerEdging">
-                    <img className="photoDoer" alt={'doer'} src="https://www.tvr.by/upload/iblock/a13/b6k91b5ew8wt3me9iravpe7ty20tml63.jpg" ></img>
+                    <img className="photoDoer" alt={'doer'} src={dailyMember['images'][0]} ></img>
                 </div>
                 <div className="descriptZone">
                     <p className="nameZone">{dailyMember['name']}</p>

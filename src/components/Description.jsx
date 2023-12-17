@@ -10,9 +10,9 @@ const Description = () => {
     const titles = t("description.titles", { returnObjects: true });
     const info = t("description.info", { returnObjects: true });
 
-    const cardsInfo1 = <DescriptionCardInfo width='400px' height='320px' title={titles['about']} info={info['about']} />
-    const cardsInfo2 = <DescriptionCardInfo width='400px' height='320px' title={titles['aims']} info={info['aims']} />
-    const cardsInfo3 = <DescriptionCardInfo width='400px' height='320px' title={titles['toWhom']} info={info['toWhom']} />
+    const cardsInfo1 = <DescriptionCardInfo width='400px' height='290px' title={titles['about']} info={info['about']} />
+    const cardsInfo2 = <DescriptionCardInfo width='400px' height='290px' title={titles['aims']} info={info['aims']} />
+    const cardsInfo3 = <DescriptionCardInfo width='400px' height='290px' title={titles['toWhom']} info={info['toWhom']} />
 
     return (
         <Container className='mainContainer' maxWidth="fm">
