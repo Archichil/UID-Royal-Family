@@ -5,8 +5,8 @@
   },
   "foo": {
     "uni": "БГУИР",
-    "portal": "О ПОРТАЛЕ",
-    "police": "ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ"
+    "portal": "• О ПОРТАЛЕ",
+    "police": "• ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ"
   },
   "authors": {
     "egor": {
@@ -60,7 +60,6 @@
         "https://cdn.punchng.com/wp-content/uploads/2023/07/01205510/Dutch-king-Willem-Alexander.jpeg"
       ],
       "description": "Виллем-Александр — король Нидерландов, вступивший на престол после отречения своей матери в 2013 году.",
-      "photo": "src/images/members/king-willem-alexander.jpg",
       "timelineItems": [
         {
           "title": "1967",
@@ -144,7 +143,6 @@
         "https://people.com/thmb/WqTrur7CoBvjEtf5vUn18_pAJaQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2)/Queen-Maxima-tiara-3-26af8c2dc93e44539173ed0282fb9240.jpg"
       ],
       "description": "Максима (урожденная Максима Соррегьета) — королева Нидерландов, жена короля Виллема-Александра.",
-      "photo": "src/images/members/queen-maxima.jpg",
       "timelineItems": [
         {
           "title": "1971",
@@ -222,7 +220,6 @@
         "https://cdn.britannica.com/97/31097-004-791DA73A/Beatrix-of-The-Netherlands.jpg"
       ],
       "description": "Беатрикс — член голландского королевского дома, которая правила королевой Нидерландов с 1980 года до своего отречения от престола в 2013 году.",
-      "photo": "src/images/members/princess-beatrix.jpg",
       "timelineItems": [
         {
           "title": "1938",
@@ -282,7 +279,6 @@
         "https://pbs.twimg.com/media/FdHaM-iXoAAOlrb.jpg"
       ],
       "description": "Катарина-Амалия, принцесса Апельсин, является наследницей престола Королевства Нидерландов, в состав которого входят Аруба, Кюрасао, Нидерланды и Синт-Мартен.",
-      "photo": "src/images/members/princess-of-orange.jpg",
       "timelineItems": [
         {
           "title": "2003 г.",
@@ -336,7 +332,6 @@
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiLGAlgxQ5mq3JkYbD2-yDqksUYlFPR6Pub_VNP9b0-Hs41rHBuuKyspMzu11sHb6za9OP5xNEU7CV_RKR8GkZs-OIAJBgwYC4e72w4VOLopRpo2W9BLKhUYKqj_cbAtSk1ehBHRA_yIJWD-uovRHt70U_zNzXFDuRyG2m_5V6jSJjedGxpLoGirB1a68/s800/princess-alexia-in-oscar-de-la-renta-dress-4.jpg"
       ],
       "description": "Принцесса Нидерландов Алексия, принцесса Оранж-Нассау, вторая дочь Виллема-Александра Нидерландов и королевы Нидерландов Максимы. ",
-      "photo": "src/images/members/princess-alexia.jpg",
       "timelineItems": [
         {
           "title": "2005",
@@ -390,7 +385,6 @@
         "https://i.pinimg.com/736x/8c/8a/0f/8c8a0fdd905e7cdac5556f8a0fd09b11.jpg"
       ],
       "description": "Принцесса Нидерландов Ариана, принцесса Оранж-Нассау, третья и младшая дочь короля Виллема-Александра и королевы Максимы. ",
-      "photo": "src/images/members/princess-ariane.jpg",
       "timelineItems": [
         {
           "title": "2007",
@@ -444,7 +438,6 @@
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmxxP2CAfPGJf2HaOj9Zm2f4tuI0C-y8jtEg&usqp=CAU"
       ],
       "description": "Принц Нидерландов Константин — третий и младший сын бывшей голландской королевы Беатрикс и ее мужа Клауса фон Амсберга, а также младший брат правящего голландского короля Виллема-Александра. ",
-      "photo": "src/images/members/prince-constantijn.jpg",
       "timelineItems": [
         {
           "title": "1969",
@@ -516,7 +509,6 @@
         "https://royalhats.files.wordpress.com/2022/10/2022-10-11-state-visit-to-sweden-1-beret-pink-250.jpg?w=187"
       ],
       "description": "Принцесса Нидерландов Лорентен (урожденная Петра Лорентен Бринкхорст) — жена принца Константина и невестка короля Нидерландов Виллема-Александра.",
-      "photo": "src/images/members/princess-laurentien.jpg",
       "timelineItems": [
         {
           "title": "1966",
@@ -588,7 +580,6 @@
         "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Princess_Margriet_of_the_Netherlands_1964.jpg/170px-Princess_Margriet_of_the_Netherlands_1964.jpg"
       ],
       "description": "Принцесса Нидерландов Маргрит (Маргрит Франциска) — третья дочь королевы Юлианы и принца Бернхарда. ",
-      "photo": "src/images/members/princess-margriet.jpg",
       "timelineItems": [
         {
           "title": "1943",

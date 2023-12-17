@@ -18,8 +18,6 @@ const FamilyMembers = () => {
         members.push({id : id, name: familyMember.name, src: familyMember.images[0]});
     }
 
-
-
     const filteredData = members.filter((item) =>
         item.name.toLowerCase().includes(searchTerm.toLowerCase()),
     );
@@ -36,7 +34,7 @@ const FamilyMembers = () => {
     ));
 
     return (
-        <div style={{ padding: '20px' }}>
+        <div style={{ minHeight: '100vh' }}>
             <TextField
                 label={t('search')}
                 variant="filled"

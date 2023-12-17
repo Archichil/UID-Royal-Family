@@ -5,7 +5,7 @@ import Doer from "../components/Doer";
 
 const Home = () => {
     return (
-        <div>
+        <div style={{ minHeight: '100vh' }}>
             <Description />
             <TeamDescription />
             <Doer />

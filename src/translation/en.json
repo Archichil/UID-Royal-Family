@@ -5,8 +5,8 @@
   },
   "foo": {
     "uni": "BSUIR",
-    "portal": "ABOUT PORTAL",
-    "police": "PRIVACY POLICY"
+    "portal": "• ABOUT PORTAL",
+    "police": "• PRIVACY POLICY"
   },
   "authors": {
     "egor": {
@@ -60,7 +60,6 @@
         "https://cdn.punchng.com/wp-content/uploads/2023/07/01205510/Dutch-king-Willem-Alexander.jpeg"
       ],
       "description": "Willem-Alexander is King of the Netherlands, having acceded to the throne following his mother's abdication in 2013.",
-      "photo": "src/images/members/king-willem-alexander.jpg",
       "timelineItems": [
         {
           "title": "1967",
@@ -144,7 +143,6 @@
         "https://people.com/thmb/WqTrur7CoBvjEtf5vUn18_pAJaQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2)/Queen-Maxima-tiara-3-26af8c2dc93e44539173ed0282fb9240.jpg"
       ],
       "description": "Máxima (born Máxima Zorreguieta) is Queen of the Netherlands as the wife of King Willem-Alexander.",
-      "photo": "src/images/members/queen-maxima.jpg",
       "timelineItems": [
         {
           "title": "1971",
@@ -222,7 +220,6 @@
         "https://cdn.britannica.com/97/31097-004-791DA73A/Beatrix-of-The-Netherlands.jpg"
       ],
       "description": "Beatrix is a member of the Dutch royal house who reigned as Queen of the Netherlands from 1980 until her abdication in 2013.",
-      "photo": "src/images/members/princess-beatrix.jpg",
       "timelineItems": [
         {
           "title": "1938",
@@ -282,7 +279,6 @@
         "https://pbs.twimg.com/media/FdHaM-iXoAAOlrb.jpg"
       ],
       "description": "Catharina-Amalia, Princess of Orange is the heir apparent to the throne of the Kingdom of the Netherlands, which consists of the constituent countries of Aruba, Curaçao, the Netherlands, and Sint Maarten.",
-      "photo": "src/images/members/princess-of-orange.jpg",
       "timelineItems": [
         {
           "title": "2003",
@@ -336,7 +332,6 @@
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiLGAlgxQ5mq3JkYbD2-yDqksUYlFPR6Pub_VNP9b0-Hs41rHBuuKyspMzu11sHb6za9OP5xNEU7CV_RKR8GkZs-OIAJBgwYC4e72w4VOLopRpo2W9BLKhUYKqj_cbAtSk1ehBHRA_yIJWD-uovRHt70U_zNzXFDuRyG2m_5V6jSJjedGxpLoGirB1a68/s800/princess-alexia-in-oscar-de-la-renta-dress-4.jpg"
       ],
       "description": "Princess Alexia of the Netherlands, Princess of Orange-Nassau is the second daughter of Willem-Alexander of the Netherlands and Queen Máxima of the Netherlands. Princess Alexia is a member of the Dutch royal house and second in the line of succession to the Dutch throne.",
-      "photo": "src/images/members/princess-alexia.jpg",
       "timelineItems": [
         {
           "title": "2005",
@@ -390,7 +385,6 @@
         "https://i.pinimg.com/736x/8c/8a/0f/8c8a0fdd905e7cdac5556f8a0fd09b11.jpg"
       ],
       "description": "Princess Ariane of the Netherlands, Princess of Orange-Nassau is the third and youngest daughter of King Willem-Alexander and Queen Máxima. Princess Ariane is a member of the Dutch Royal House and currently third in the line of succession to the Dutch throne.",
-      "photo": "src/images/members/princess-ariane.jpg",
       "timelineItems": [
         {
           "title": "2007",
@@ -444,7 +438,6 @@
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmxxP2CAfPGJf2HaOj9Zm2f4tuI0C-y8jtEg&usqp=CAU"
       ],
       "description": "Prince Constantijn of the Netherlands is the third and youngest son of the former Dutch queen, Beatrix, and her husband, Claus von Amsberg, and is the younger brother of the reigning Dutch king, Willem-Alexander. He is a member of the Dutch Royal House and currently fourth in the line of succession to the Dutch throne behind his nieces.",
-      "photo": "src/images/members/prince-constantijn.jpg",
       "timelineItems": [
         {
           "title": "1969",
@@ -516,7 +509,6 @@
         "https://royalhats.files.wordpress.com/2022/10/2022-10-11-state-visit-to-sweden-1-beret-pink-250.jpg?w=187"
       ],
       "description": "Princess Laurentien of the Netherlands (born Petra Laurentien Brinkhorst) is the wife of Prince Constantijn and sister-in-law of King Willem-Alexander of the Netherlands.",
-      "photo": "src/images/members/princess-laurentien.jpg",
       "timelineItems": [
         {
           "title": "1966",
@@ -588,7 +580,6 @@
         "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Princess_Margriet_of_the_Netherlands_1964.jpg/170px-Princess_Margriet_of_the_Netherlands_1964.jpg"
       ],
       "description": "Princess Margriet of the Netherlands (Margriet Francisca) s the third daughter of Queen Juliana and Prince Bernhard. As an aunt of the reigning monarch, King Willem-Alexander, she is a member of the Dutch Royal House and currently eighth and last in the line of succession to the throne.",
-      "photo": "src/images/members/princess-margriet.jpg",
       "timelineItems": [
         {
           "title": "1943",

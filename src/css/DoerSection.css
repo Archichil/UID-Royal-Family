@@ -1,7 +1,7 @@
 .doer_section{
     margin-top: 3%;
     height: 1000px;
-    background: linear-gradient(rgba(243, 225, 208, 1), rgba(243, 225, 208, 0.7)), url('/src/images/1.jpg')  center/cover no-repeat;
+    background: linear-gradient(rgba(243, 225, 208, 1), rgba(243, 225, 208, 0.7)), url('/src/images/doerBG.jpg')  center/cover no-repeat;
 }
 
 .sectionName{
