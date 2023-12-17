@@ -3,6 +3,9 @@
     "title": "Royal representative of the day",
     "buttonName": "Read more"
   },
+  "foo.uni": "BSUIR",
+  "foo.portal": "ABOUT PORTAL",
+  "foo.police": "PRIVACY POLICY",
   "authors": {
     "egor": {
       "name": "Egor Pankratiev",
