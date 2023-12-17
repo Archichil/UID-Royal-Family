@@ -7,17 +7,10 @@ const seededRandom = (seed, n, m) => {
 };
 
 export const getDailyMemberId = () => {
-    const savedIndex = localStorage.getItem('chosenIndex');
-    if (savedIndex)
-        return membersId[parseInt(savedIndex, 10)];
-    else {
-        const currentDate = new Date();
-        currentDate.setHours(0, 0, 0, 0);
-        const timeRelativeToMidnight = currentDate.getTime();
-        const newIndex = seededRandom(timeRelativeToMidnight, 0, membersId.length - 1);
+    const currentDate = new Date();
+    currentDate.setHours(0, 0, 0, 0);
+    const timeRelativeToMidnight = currentDate.getTime();
+    const newIndex = seededRandom(timeRelativeToMidnight, 0, membersId.length - 1);
 
-        localStorage.setItem('chosenIndex', newIndex);
-
-        return membersId[newIndex];
-    }
+    return membersId[newIndex];
 };
