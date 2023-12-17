@@ -1,4 +1,8 @@
 {
+  "dailyMemberInfo": {
+    "title": "Royal representative of the day",
+    "buttonName": "Read more"
+  },
   "authors": {
     "egor": {
       "name": "Egor Pankratiev",

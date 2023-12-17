@@ -1,4 +1,8 @@
 {
+  "dailyMemberInfo": {
+    "title": "Королевский представитель дня",
+    "buttonName": "Подробнее"
+  },
   "authors": {
     "egor": {
       "name": "Егор Панкратьев",
