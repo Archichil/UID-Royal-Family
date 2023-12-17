@@ -7,7 +7,7 @@ import ruTranslations from "./translation/ru.json";
 i18next
     .use(initReactI18next)
     .init({
-        debug: true,
+        debug: false,
         fallbackLng: "ru",
         defaultNS: "ns1",
         lng: "en",
@@ -21,9 +21,8 @@ i18next
         },
     });
 
-export default i18next;
-
 const isEn = () => i18next.language === 'en';
+
 export const swapLanguage = () => {
     if (isEn()) { i18next.changeLanguage('ru') }
     else        { i18next.changeLanguage('en') }
