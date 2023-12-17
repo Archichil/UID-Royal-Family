@@ -49,9 +49,8 @@
     "laurien": "Princess Laurentien",
     "margriet": "Princess Margriet"
   },
-  "familyMembers": [
-    {
-      "id": 1,
+  "familyMembers": {
+    "king-willem-alexander": {
       "name": "King Willem-Alexander",
       "age": "56",
       "birthdayDate": "April 27 1967",
@@ -129,10 +128,9 @@
         }
       ],
       "youtube": "",
-      "googlemap": ""
+      "googleMap": ""
     },
-    {
-      "id": 2,
+    "queen-maxima": {
       "name": "Queen Máxima",
       "age": "52",
       "birthdayDate": "May 17 1971",
@@ -204,10 +202,9 @@
         }
       ],
       "youtube": "",
-      "googlemap": ""
+      "googleMap": ""
     },
-    {
-      "id": 3,
+    "princess-beatrix": {
       "name": "Princess Beatrix",
       "age": "85",
       "birthdayDate": "January 31 1938",
@@ -261,10 +258,9 @@
         }
       ],
       "youtube": "",
-      "googlemap": ""
+      "googleMap": ""
     },
-    {
-      "id": 4,
+    "the-princess-of-orange": {
       "name": "Princess of Orange",
       "age": "20",
       "birthdayDate": "December 7 2003",
@@ -312,10 +308,9 @@
         }
       ],
       "youtube": "",
-      "googlemap": ""
+      "googleMap": ""
     },
-    {
-      "id": 5,
+    "princess-alexia": {
       "name": "Princess Alexia",
       "age": "18",
       "birthdayDate": "June 26 2005",
@@ -365,8 +360,7 @@
       "youtube": "",
       "googlemap": ""
     },
-    {
-      "id": 6,
+    "princess-ariane": {
       "name": "Princess Ariane",
       "age": "16",
       "birthdayDate": "April 10 2007",
@@ -416,8 +410,7 @@
       "youtube": "",
       "googlemap": ""
     },
-    {
-      "id": 7,
+    "prince-constantijn": {
       "name": "Prince Constantijn",
       "age": "54",
       "birthdayDate": "October 11 1969 ",
@@ -485,8 +478,7 @@
       "youtube": "",
       "googlemap": ""
     },
-    {
-      "id": 8,
+    "princess-laurentien": {
       "name": "Princess Laurentien",
       "age": "57",
       "birthdayDate": "May 25 1966 ",
@@ -554,8 +546,7 @@
       "youtube": "",
       "googlemap": ""
     },
-    {
-      "id": 9,
+    "princess-margriet": {
       "name": "Princess Margriet",
       "age": "80",
       "birthdayDate": "January 19 1943",
@@ -629,5 +620,5 @@
       "youtube": "",
       "googlemap": ""
     }
-  ]
+  }
 }
