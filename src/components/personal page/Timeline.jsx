@@ -17,7 +17,7 @@ const Timeline = ({ familyMember }) => {
                     mode="VERTICAL_ALTERNATING"
                     allowDynamicUpdate={true}
 
-                    cardHeight={110}
+                    cardHeight={120}
                     mediaHeight={100}
                     contentDetailsHeight={80}
                     readMore={true}
