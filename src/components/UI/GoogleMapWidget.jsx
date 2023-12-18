@@ -1,7 +1,7 @@
 import React from 'react';
-import '../css/GoogleMaps.css'
+import '../../css/GoogleMaps.css'
 
-const GoogleMaps = ({link}) => {
+const GoogleMapWidget = ({link}) => {
     return (
         <iframe
             className = "MapContainer"
@@ -21,4 +21,4 @@ const GoogleMaps = ({link}) => {
     );
 };
 
-export default GoogleMaps;
+export default GoogleMapWidget;

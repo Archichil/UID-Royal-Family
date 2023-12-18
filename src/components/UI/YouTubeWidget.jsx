@@ -1,7 +1,7 @@
 import React from 'react';
-import '../css/YouTube.css'
+import '../../css/YouTube.css'
 
-const YouTube = ({link}) => {
+const YouTubeWidget = ({link}) => {
     return (
         <iframe
             className = "YTContainer"
@@ -19,4 +19,4 @@ const YouTube = ({link}) => {
     );
 };
 
-export default YouTube;
+export default YouTubeWidget;

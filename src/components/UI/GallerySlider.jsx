@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousel from "react-material-ui-carousel";
 import {Box} from "@mui/material";
-import '../css/GallerySlider.css'
+import '../../css/GallerySlider.css'
 
 const Item = (props) => {
     return (

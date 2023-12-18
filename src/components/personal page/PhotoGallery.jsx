@@ -1,6 +1,6 @@
 import React from 'react';
 import {Grid, Typography} from "@mui/material";
-import GallerySlider from "../GallerySlider";
+import GallerySlider from "../UI/GallerySlider";
 import {useTranslation} from "react-i18next";
 
 const PhotoGallery = ({ familyMember }) => {

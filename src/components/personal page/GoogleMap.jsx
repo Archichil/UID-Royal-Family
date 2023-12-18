@@ -1,6 +1,6 @@
 import React from 'react';
 import {Grid, Typography} from "@mui/material";
-import GoogleMaps from "../GoogleMaps";
+import GoogleMapWidget from "../UI/GoogleMapWidget";
 import {useTranslation} from "react-i18next";
 
 const GoogleMap = ({ familyMember }) => {
@@ -10,7 +10,7 @@ const GoogleMap = ({ familyMember }) => {
             <Typography variant="h2" align="center" sx={{mb: 2}}>
                 {t('googleMap')}
             </Typography>
-            <GoogleMaps
+            <GoogleMapWidget
                 link={familyMember['googleMap']}
             />
         </Grid>

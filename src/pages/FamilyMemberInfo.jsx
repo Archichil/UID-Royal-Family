@@ -1,21 +1,12 @@
 import React from 'react';
 import {useParams} from "react-router-dom";
 import {useTranslation} from "react-i18next";
-import {Chrono} from "react-chrono";
-import {
-    Container,
-    Typography,
-    Grid,
-    Card,
-    CardMedia,
-} from '@mui/material';
-import GallerySlider from "../components/GallerySlider";
-import GoogleMaps from "../components/GoogleMaps";
+import {Container, Grid, Typography,} from '@mui/material';
 import GoogleMap from "../components/personal page/GoogleMap";
 import PhotoGallery from "../components/personal page/PhotoGallery";
 import Timeline from "../components/personal page/Timeline";
 import Info from "../components/personal page/Info";
-import TubeYou from '../components/personal page/TubeYou';
+import Youtube from '../components/personal page/Youtube';
 
 const FamilyMemberInfo = () => {
     window.scrollTo({ top: 0, behavior: 'smooth', });
@@ -32,7 +23,7 @@ const FamilyMemberInfo = () => {
                     <Info familyMember={familyMember}/>
                     <Timeline familyMember={familyMember}/>
                     <PhotoGallery familyMember={familyMember}/>
-                    <TubeYou familyMember={familyMember}/>
+                    <Youtube familyMember={familyMember}/>
                     <GoogleMap familyMember={familyMember}/>
                 </Grid>
             </Container>
