@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.0acd4dfc.css",
-    "main.js": "/home/static/js/main.e502797b.js",
-    "static/media/background.jpg": "/home/static/media/background.08996bb93bf01bd78d64.jpg",
-    "index.html": "/home/index.html",
-    "main.0acd4dfc.css.map": "/home/static/css/main.0acd4dfc.css.map",
-    "main.e502797b.js.map": "/home/static/js/main.e502797b.js.map"
+    "main.css": "/UID-Royal-Family/static/css/main.0acd4dfc.css",
+    "main.js": "/UID-Royal-Family/static/js/main.c7357484.js",
+    "static/media/background.jpg": "/UID-Royal-Family/static/media/background.08996bb93bf01bd78d64.jpg",
+    "index.html": "/UID-Royal-Family/index.html",
+    "main.0acd4dfc.css.map": "/UID-Royal-Family/static/css/main.0acd4dfc.css.map",
+    "main.c7357484.js.map": "/UID-Royal-Family/static/js/main.c7357484.js.map"
   },
   "entrypoints": [
     "static/css/main.0acd4dfc.css",
-    "static/js/main.e502797b.js"
+    "static/js/main.c7357484.js"
   ]
 }
