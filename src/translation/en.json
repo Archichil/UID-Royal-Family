@@ -47,6 +47,13 @@
     }
   },
   "search": "Search",
+  "age": "Age: ",
+  "timeline": "Timeline",
+  "lifeYears": "Years of Life: ",
+  "annotation": "Annotation: ",
+  "photoGallery": "Photo Gallery",
+  "youtube": "YouTube Video",
+  "googleMap": "Main location of activity",
   "familyMembers": {
     "king-willem-alexander": {
       "name": "King Willem-Alexander",
@@ -128,8 +135,8 @@
           "cardDetailedText": "In 2022, King Willem-Alexander may participate in events celebrating the Platinum Jubilee of Queen Elizabeth II."
         }
       ],
-      "youtube": "https://www.youtube.com/watch?v=OJdZY3gvgAI&ab_channel=euronews",
-      "googleMap": ""
+      "youtube": "https://www.youtube.com/embed/OJdZY3gvgAI?si=IgLdukHasGSyYh8J",
+      "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.84759327989!2d4.888800876541209!3d52.37318347202305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609c6c0880e15%3A0x39914e99b51dcf8a!2z0JrQvtGA0L7Qu9C10LLRgdC60LjQuSDQtNCy0L7RgNC10YY!5e0!3m2!1sru!2sby!4v1702894891350!5m2!1sru!2sby"
     },
     "queen-maxima": {
       "name": "Queen Máxima",
@@ -205,8 +212,8 @@
           "cardDetailedText": "In 2022, Queen Máxima may participate in events celebrating the Platinum Jubilee of Queen Elizabeth II."
         }
       ],
-      "youtube": "https://www.youtube.com/watch?v=eUFF8baBSZk&ab_channel=AlJazeeraEnglish",
-      "googleMap": ""
+      "youtube": "https://www.youtube.com/embed/eUFF8baBSZk?si=anVo6GD2xWhYDqQ4",
+      "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.84759327989!2d4.888800876541209!3d52.37318347202305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609c6c0880e15%3A0x39914e99b51dcf8a!2z0JrQvtGA0L7Qu9C10LLRgdC60LjQuSDQtNCy0L7RgNC10YY!5e0!3m2!1sru!2sby!4v1702894891350!5m2!1sru!2sby"
     },
     "princess-beatrix": {
       "name": "Princess Beatrix",
@@ -264,8 +271,8 @@
           "cardDetailedText": "Following her abdication, Beatrix retires from public duties and takes on a more private life."
         }
       ],
-      "youtube": "https://www.youtube.com/watch?v=xfflPQXWJaA",
-      "googleMap": ""
+      "youtube": "https://www.youtube.com/embed/xfflPQXWJaA?si=VQk4hrtbC94B2Pcs",
+      "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.84759327989!2d4.888800876541209!3d52.37318347202305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609c6c0880e15%3A0x39914e99b51dcf8a!2z0JrQvtGA0L7Qu9C10LLRgdC60LjQuSDQtNCy0L7RgNC10YY!5e0!3m2!1sru!2sby!4v1702894891350!5m2!1sru!2sby"
     },
     "the-princess-of-orange": {
       "name": "Princess of Orange",
@@ -317,8 +324,8 @@
           "cardDetailedText": "As of 2022, Catharina-Amalia is expected to continue her education and gradually take on more responsibilities within the royal family."
         }
       ],
-      "youtube": "https://www.youtube.com/watch?v=T_wHCy1zRfM",
-      "googleMap": ""
+      "youtube": "https://www.youtube.com/embed/T_wHCy1zRfM?si=nNC-V_VP19_cZksK",
+      "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.84759327989!2d4.888800876541209!3d52.37318347202305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609c6c0880e15%3A0x39914e99b51dcf8a!2z0JrQvtGA0L7Qu9C10LLRgdC60LjQuSDQtNCy0L7RgNC10YY!5e0!3m2!1sru!2sby!4v1702894891350!5m2!1sru!2sby"
     },
     "princess-alexia": {
       "name": "Princess Alexia",
@@ -370,8 +377,8 @@
           "cardDetailedText": "As of 2022, Alexia is expected to continue her education and gradually take on more responsibilities within the royal family."
         }
       ],
-      "youtube": "https://www.youtube.com/watch?v=ZfyIn1Tmck8",
-      "googlemap": ""
+      "youtube": "https://www.youtube.com/embed/ZfyIn1Tmck8?si=1ZWmJ-sngQyz72Ic",
+      "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.84759327989!2d4.888800876541209!3d52.37318347202305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609c6c0880e15%3A0x39914e99b51dcf8a!2z0JrQvtGA0L7Qu9C10LLRgdC60LjQuSDQtNCy0L7RgNC10YY!5e0!3m2!1sru!2sby!4v1702894891350!5m2!1sru!2sby"
     },
     "princess-ariane": {
       "name": "Princess Ariane",
@@ -423,8 +430,8 @@
           "cardDetailedText": "As of 2022, Ariane continues her education and is expected to gradually take on more responsibilities within the royal family."
         }
       ],
-      "youtube": "https://www.youtube.com/watch?v=YgRGQNA9jts",
-      "googlemap": ""
+      "youtube": "https://www.youtube.com/embed/YgRGQNA9jts?si=CsRC6bJWhL1Sjsjd",
+      "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.84759327989!2d4.888800876541209!3d52.37318347202305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609c6c0880e15%3A0x39914e99b51dcf8a!2z0JrQvtGA0L7Qu9C10LLRgdC60LjQuSDQtNCy0L7RgNC10YY!5e0!3m2!1sru!2sby!4v1702894891350!5m2!1sru!2sby"
     },
     "prince-constantijn": {
       "name": "Prince Constantijn",
@@ -494,8 +501,8 @@
           "cardDetailedText": "In 2022, Prince Constantijn may participate in events celebrating the Platinum Jubilee of Queen Elizabeth II."
         }
       ],
-      "youtube": "https://www.youtube.com/watch?v=aWZfcsqtzHI",
-      "googlemap": ""
+      "youtube": "https://www.youtube.com/embed/aWZfcsqtzHI?si=5zNMELv79eMe1TIH",
+      "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.84759327989!2d4.888800876541209!3d52.37318347202305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609c6c0880e15%3A0x39914e99b51dcf8a!2z0JrQvtGA0L7Qu9C10LLRgdC60LjQuSDQtNCy0L7RgNC10YY!5e0!3m2!1sru!2sby!4v1702894891350!5m2!1sru!2sby"
     },
     "princess-laurentien": {
       "name": "Princess Laurentien",
@@ -565,8 +572,8 @@
           "cardDetailedText": "In 2022, Princess Laurentien may participate in events celebrating the Platinum Jubilee of Queen Elizabeth II."
         }
       ],
-      "youtube": "https://www.youtube.com/watch?v=aWZfcsqtzHI",
-      "googlemap": ""
+      "youtube": "https://www.youtube.com/embed/aWZfcsqtzHI?si=5zNMELv79eMe1TIH",
+      "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.84759327989!2d4.888800876541209!3d52.37318347202305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609c6c0880e15%3A0x39914e99b51dcf8a!2z0JrQvtGA0L7Qu9C10LLRgdC60LjQuSDQtNCy0L7RgNC10YY!5e0!3m2!1sru!2sby!4v1702894891350!5m2!1sru!2sby"
     },
     "princess-margriet": {
       "name": "Princess Margriet",
@@ -642,8 +649,8 @@
           "cardDetailedText": "In 2022, Princess Margriet may participate in events celebrating the Platinum Jubilee of Queen Elizabeth II."
         }
       ],
-      "youtube": "https://www.youtube.com/watch?v=KY-xQxUdKOo",
-      "googlemap": ""
+      "youtube": "https://www.youtube.com/embed/KY-xQxUdKOo?si=d30G2a0YblYl3ePA",
+      "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.84759327989!2d4.888800876541209!3d52.37318347202305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609c6c0880e15%3A0x39914e99b51dcf8a!2z0JrQvtGA0L7Qu9C10LLRgdC60LjQuSDQtNCy0L7RgNC10YY!5e0!3m2!1sru!2sby!4v1702894891350!5m2!1sru!2sby"
     }
   }
 }

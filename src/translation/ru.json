@@ -41,12 +41,19 @@
       "toWhom": "КОМУ"
     },
     "info": {
-      "about": "На сайте вы сможете познакомиться и узнать что-то новое оголландской королевской семьей и о ее членах в частности",
+      "about": "На сайте вы сможете познакомиться и узнать что-то новое о голландской королевской семьей и о ее членах в частности",
       "aims": "Наш портал ставит своей целью просвятить общество что есть и иные королевские семьи кроме британской",
       "toWhom": "Кроме историков и 'прошаренных' людей сайт подойдет и для обычных любознательных пользователей"
     }
   },
   "search": "Поиск",
+  "age": "Возраст: ",
+  "timeline": "Временная линия",
+  "lifeYears": "Годы жизни: ",
+  "annotation": "Аннотация: ",
+  "photoGallery": "Галерея",
+  "youtube": "Видео YouTube",
+  "googleMap": "Место основной деятельности",
   "familyMembers": {
     "king-willem-alexander": {
       "name": "Король Виллем-Александр",
@@ -128,8 +135,8 @@
           "cardDetailedText": "В 2022 году король Виллем-Александр может принять участие в мероприятиях по празднованию платинового юбилея королевы Елизаветы II."
         }
       ],
-      "youtube": "https://www.youtube.com/watch?v=Xa9Xh8-en6M&ab_channel=Euronews%D0%BF%D0%BE-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8",
-      "googleMap": ""
+      "youtube": "https://www.youtube.com/embed/Xa9Xh8-en6M?si=hq6lth749Qm4AnaM",
+      "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.84759327989!2d4.888800876541209!3d52.37318347202305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609c6c0880e15%3A0x39914e99b51dcf8a!2z0JrQvtGA0L7Qu9C10LLRgdC60LjQuSDQtNCy0L7RgNC10YY!5e0!3m2!1sru!2sby!4v1702894891350!5m2!1sru!2sby"
     },
     "queen-maxima": {
       "name": "Королева Максима",
@@ -205,8 +212,8 @@
           "cardDetailedText": "В 2022 году королева Максима может принять участие в мероприятиях, посвященных платиновому юбилею королевы Елизаветы II."
         }
       ],
-      "youtube": "https://www.youtube.com/watch?v=YPzBrENc4FE",
-      "googleMap": ""
+      "youtube": "https://www.youtube.com/embed/YPzBrENc4FE?si=brjvUsmziDzQUwTZ",
+      "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.84759327989!2d4.888800876541209!3d52.37318347202305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609c6c0880e15%3A0x39914e99b51dcf8a!2z0JrQvtGA0L7Qu9C10LLRgdC60LjQuSDQtNCy0L7RgNC10YY!5e0!3m2!1sru!2sby!4v1702894891350!5m2!1sru!2sby"
     },
     "princess-beatrix": {
       "name": "Принцесса Беатрикс",
@@ -264,8 +271,8 @@
           "cardDetailedText": "После отречения Беатрикс уходит с общественных обязанностей и начинает вести более частную жизнь."
         }
       ],
-      "youtube": "https://www.youtube.com/watch?v=2haJQiARiyQ",
-      "googleMap": ""
+      "youtube": "https://www.youtube.com/embed/2haJQiARiyQ?si=hFIOkUgTgJaN44sn",
+      "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.84759327989!2d4.888800876541209!3d52.37318347202305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609c6c0880e15%3A0x39914e99b51dcf8a!2z0JrQvtGA0L7Qu9C10LLRgdC60LjQuSDQtNCy0L7RgNC10YY!5e0!3m2!1sru!2sby!4v1702894891350!5m2!1sru!2sby"
     },
     "the-princess-of-orange": {
       "name": "Принцесса Апельсин",
@@ -317,8 +324,8 @@
           "cardDetailedText": "Ожидается, что с 2022 года Катарина-Амалия продолжит свое образование и постепенно возьмет на себя больше обязанностей в королевской семье."
         }
       ],
-      "youtube": "https://www.youtube.com/watch?v=pxk2-dCBkcM",
-      "googleMap": ""
+      "youtube": "https://www.youtube.com/embed/pxk2-dCBkcM?si=l8URgGVl3twgRkyF",
+      "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.84759327989!2d4.888800876541209!3d52.37318347202305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609c6c0880e15%3A0x39914e99b51dcf8a!2z0JrQvtGA0L7Qu9C10LLRgdC60LjQuSDQtNCy0L7RgNC10YY!5e0!3m2!1sru!2sby!4v1702894891350!5m2!1sru!2sby"
     },
     "princess-alexia": {
       "name": "Принцесса Алексия",
@@ -370,8 +377,8 @@
           "cardDetailedText": "Ожидается, что с 2022 года Алексия продолжит свое образование и постепенно возьмет на себя больше обязанностей в королевской семье."
         }
       ],
-      "youtube": "https://www.youtube.com/watch?v=ZfyIn1Tmck8",
-      "googlemap": ""
+      "youtube": "https://www.youtube.com/embed/ZfyIn1Tmck8?si=O1HUE5qHzCdtpUEN",
+      "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.84759327989!2d4.888800876541209!3d52.37318347202305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609c6c0880e15%3A0x39914e99b51dcf8a!2z0JrQvtGA0L7Qu9C10LLRgdC60LjQuSDQtNCy0L7RgNC10YY!5e0!3m2!1sru!2sby!4v1702894891350!5m2!1sru!2sby"
     },
     "princess-ariane": {
       "name": "Принцесса Ариана",
@@ -423,8 +430,8 @@
           "cardDetailedText": "С 2022 года Ариана продолжит свое образование и, как ожидается, постепенно возьмет на себя больше обязанностей в королевской семье."
         }
       ],
-      "youtube": "https://www.youtube.com/watch?v=7HQet_S4-bE",
-      "googlemap": ""
+      "youtube": "https://www.youtube.com/embed/7HQet_S4-bE?si=ZMHLhJKix9wXW0E8",
+      "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.84759327989!2d4.888800876541209!3d52.37318347202305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609c6c0880e15%3A0x39914e99b51dcf8a!2z0JrQvtGA0L7Qu9C10LLRgdC60LjQuSDQtNCy0L7RgNC10YY!5e0!3m2!1sru!2sby!4v1702894891350!5m2!1sru!2sby"
     },
     "prince-constantijn": {
       "name": "Принц Константин",
@@ -494,8 +501,8 @@
           "cardDetailedText": "В 2022 году принц Константин может принять участие в мероприятиях по празднованию платинового юбилея королевы Елизаветы II."
         }
       ],
-      "youtube": "https://www.youtube.com/watch?v=aWZfcsqtzHI",
-      "googlemap": ""
+      "youtube": "https://www.youtube.com/embed/aWZfcsqtzHI?si=ltei6vjo6_qoNOdp",
+      "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.84759327989!2d4.888800876541209!3d52.37318347202305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609c6c0880e15%3A0x39914e99b51dcf8a!2z0JrQvtGA0L7Qu9C10LLRgdC60LjQuSDQtNCy0L7RgNC10YY!5e0!3m2!1sru!2sby!4v1702894891350!5m2!1sru!2sby"
     },
     "princess-laurentien": {
       "name": "Принцесса Лорентен",
@@ -565,8 +572,8 @@
           "cardDetailedText": "В 2022 году принцесса Лаврентьева может принять участие в мероприятиях, посвященных платиновому юбилею королевы Елизаветы II."
         }
       ],
-      "youtube": "https://www.youtube.com/watch?v=aWZfcsqtzHI",
-      "googlemap": ""
+      "youtube": "https://www.youtube.com/embed/aWZfcsqtzHI?si=ltei6vjo6_qoNOdp",
+      "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.84759327989!2d4.888800876541209!3d52.37318347202305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609c6c0880e15%3A0x39914e99b51dcf8a!2z0JrQvtGA0L7Qu9C10LLRgdC60LjQuSDQtNCy0L7RgNC10YY!5e0!3m2!1sru!2sby!4v1702894891350!5m2!1sru!2sby"
     },
     "princess-margriet": {
       "name": "Принцесса Маргрит",
@@ -642,8 +649,8 @@
           "cardDetailedText": "В 2022 году принцесса Маргрит может принять участие в мероприятиях, посвященных платиновому юбилею королевы Елизаветы II."
         }
       ],
-      "youtube": "https://www.youtube.com/watch?v=KY-xQxUdKOo",
-      "googlemap": ""
+      "youtube": "https://www.youtube.com/embed/KY-xQxUdKOo?si=YIaSiEpIydWA4iSG",
+      "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.84759327989!2d4.888800876541209!3d52.37318347202305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609c6c0880e15%3A0x39914e99b51dcf8a!2z0JrQvtGA0L7Qu9C10LLRgdC60LjQuSDQtNCy0L7RgNC10YY!5e0!3m2!1sru!2sby!4v1702894891350!5m2!1sru!2sby"
     }
   }
 }
