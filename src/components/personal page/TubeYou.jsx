@@ -3,7 +3,7 @@ import {Grid, Typography} from "@mui/material";
 import YouTube from "../YouTube";
 import {useTranslation} from "react-i18next";
 
-const Youtube = ({ familyMember }) => {
+const TubeYou = ({ familyMember }) => {
     const {t} = useTranslation();
     return (
         <Grid item xs={12} style={{marginTop: "70px"}}>
@@ -17,4 +17,4 @@ const Youtube = ({ familyMember }) => {
     );
 };
 
-export default Youtube;
+export default TubeYou;
