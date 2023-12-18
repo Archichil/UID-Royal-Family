@@ -1,0 +1,13 @@
+@media (max-width: 700px) {
+
+    .MapContainer{
+        height: 300px;
+    }
+}
+
+@media (min-width: 700px) {
+
+    .MapContainer{
+        height: 500px;
+    }
+}
