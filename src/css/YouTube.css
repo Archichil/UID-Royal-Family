@@ -1,0 +1,13 @@
+@media (max-width: 700px) {
+
+    .YTContainer{
+        height: 300px;
+    }
+}
+
+@media (min-width: 700px) {
+
+    .YTContainer{
+        height: 500px;
+    }
+}
