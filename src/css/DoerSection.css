@@ -1,81 +1,67 @@
 .doer_section{
-    margin-top: 3%;
-    height: 1000px;
-    background: linear-gradient(rgba(243, 225, 208, 1), rgba(243, 225, 208, 0.7)), url('/src/images/doerBG.jpg')  center/cover no-repeat;
+    margin-top: 6%;
+    margin-bottom: 6%;
 }
 
 .sectionName{
-    position: relative;
-    color: #0B237F;
-    top: 3%;
-    margin: 0 auto;
-    letter-spacing: 2px;
-    font-size: clamp(45px, 5vw, 80px);
+    margin-bottom: 3%;
+    color: #261b17;
+    font-weight: bold;
+    font-size: 3.5rem;
     text-align: center;
-    font-family: 'Yeseva One', cursive;
-}
-
-.descriptDoer{
-    display: flex;
-    position: relative;
-    top: 10%;
-    height: 73%;
+    font-family: "Raleway", Arial, sans-serif;
 }
 
 .descriptZone{
-    flex:2;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
     width: clamp(380px, 70%, 800px);
-    float: right;
-    position: relative;
-    color: #2B3F77;
+    color: #261b17;
 }
 
 .nameZone{
-    top: 30px;
-    margin: 40px 2% 70px 2%;
-    font-weight: bold;
-    font-size: clamp(30px, 3vw, 60px);
+    text-align: center;
+    font-size: 3rem;
     font-family: 'Philosopher', sans-serif;
 }
 
 .shortDescript{
-    position: relative;
-    height: clamp(200px, 320px, 40%);
-    margin: 0 2% 20px 2%;
-    white-space: normal;
-    font-size: clamp(18px, 1.5vw, 35px);
+    text-align: justify;
+    font-size: 1.5rem;
     font-family: 'Philosopher', sans-serif;
+    width: 90%;
 }
 
 .btnDoer{
-    position: relative;
     height: 40px;
-    left:25%;
-    width: clamp(60px, 60%, 200px);
-    font-size: clamp(15px, 1.2vw, 20px);
+    width: 30%;
+    font-size: 1.5rem;
     font-family: 'Philosopher', sans-serif;
     border-radius: 15px;
-    background-color: #2B3F77;
+    background-color: #261b17;
     color: rgba(243, 225, 208, 1);
     cursor: pointer;
 }
 
 .photoDoer{
-    height: 95%;
-    width: 95%;
+    height: 80%;
+    width: 30%;
     border-radius: 50%;
-    margin: 2.7%;
     object-fit: cover;
+    border: 3px solid #ac7e62;
+    box-shadow: 0px 0px 30px #ba9a88;
 }
 
-.photoDoerEdging{
-    position: relative;
-    left: clamp(10px, 12%, 20px);
-    height: clamp(100px, 90%, 600px);
-    width: clamp(200px, 25%, 300px);
-    border: 3px solid rgb(218,161,27);
-    box-shadow: 0px 0px 30px rgba(175,128,8, 0.9);
-    border-radius: 50%;
-    background-color: transparent;
-    flex: 1;
+@media (max-width: 600px) {
+    .photoDoer{
+        height: 80%;
+        width: 90%;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid #ac7e62;
+        box-shadow: 0px 0px 30px #ba9a88;
+    }
 }

@@ -21,10 +21,8 @@ const Doer = () => {
                  spacing={5}
                  alignItems='center'
                  justifyContent="center"
-                 className="descriptDoer">
-                <div className="photoDoerEdging">
-                    <img className="photoDoer" alt={'doer'} src={dailyMember['images'][0]} ></img>
-                </div>
+            >
+                <img className="photoDoer" alt={'doer'} src={dailyMember['images'][0]} ></img>
                 <div className="descriptZone">
                     <p className="nameZone">{dailyMember['name']}</p>
                     <p className="shortDescript">{dailyMember['description']}</p>

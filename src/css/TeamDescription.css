@@ -7,8 +7,11 @@
     width: 300px;
 }
 
-.team-h2{
+.team-section-name{
     text-align: center;
+    font-weight: bold;
+    font-size: 3.5rem;
+    font-family: 'Philosopher', sans-serif;
 }
 
 .git-link-text{
