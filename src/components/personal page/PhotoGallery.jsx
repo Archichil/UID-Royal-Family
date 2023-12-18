@@ -3,7 +3,7 @@ import {Grid, Typography} from "@mui/material";
 import GallerySlider from "../UI/GallerySlider";
 import {useTranslation} from "react-i18next";
 
-const PhotoGallery = ({ familyMember }) => {
+const PhotoGallery = ({ images }) => {
     const {t} = useTranslation();
     return (
         <Grid item xs={12} style={{marginTop: "70px"}}>
@@ -11,7 +11,7 @@ const PhotoGallery = ({ familyMember }) => {
                 {t('photoGallery')}
             </Typography>
             <GallerySlider
-                items={familyMember['images']}
+                items={images}
             />
         </Grid>
     );

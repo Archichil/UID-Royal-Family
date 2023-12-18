@@ -2,6 +2,7 @@ import React from 'react';
 import {Typography} from "@mui/material";
 import {Chrono} from "react-chrono";
 import {useTranslation} from "react-i18next";
+import '../../css/Timeline.css'
 
 const Timeline = ({ familyMember }) => {
     const {t} = useTranslation();
@@ -16,16 +17,10 @@ const Timeline = ({ familyMember }) => {
                     mode="VERTICAL_ALTERNATING"
                     allowDynamicUpdate={true}
 
-                    cardHeight={100}
+                    cardHeight={110}
                     mediaHeight={100}
                     contentDetailsHeight={80}
                     readMore={true}
-
-                    fontSizes={{
-                        cardSubtitle: '1.6rem',
-                        title: '1.9rem',
-                        cardTitle: '1.7rem'
-                    }}
 
                     theme={{
                         primary: '#212121',
@@ -37,10 +32,8 @@ const Timeline = ({ familyMember }) => {
                     }}
 
                     classNames={{
-                        cardSubTitle: 'my-card-subtitle',
-                        cardText: 'my-card-text',
-                        cardTitle: 'my-card-title',
-                        title: 'my-title',
+                        cardTitle: 'card-title',
+                        title: 'years',
                     }}
                 />
             </div>

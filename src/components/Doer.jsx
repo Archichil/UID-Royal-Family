@@ -5,6 +5,7 @@ import {useHistory} from "react-router-dom";
 import {useTranslation} from "react-i18next";
 import {p_family_members} from "../js/Paths";
 import {getDailyMemberId} from "../js/DailyRandom";
+import {images} from "../js/Images";
 
 const Doer = () => {
     const { t } = useTranslation();
@@ -22,7 +23,7 @@ const Doer = () => {
                  alignItems='center'
                  justifyContent="center"
             >
-                <img className="photoDoer" alt={'doer'} src={dailyMember['images'][0]} ></img>
+                <img className="photoDoer" alt={'doer'} src={'/UID-Royal-Family' + images[dailyMemberId][0]} ></img>
                 <div className="descriptZone">
                     <p className="nameZone">{dailyMember['name']}</p>
                     <p className="shortDescript">{dailyMember['description']}</p>

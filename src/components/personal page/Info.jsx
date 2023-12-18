@@ -2,13 +2,13 @@ import React from 'react';
 import {Card, CardMedia, Grid, Typography} from "@mui/material";
 import {useTranslation} from "react-i18next";
 
-const Info = ({ familyMember }) => {
+const Info = ({ familyMember, images }) => {
     const {t} = useTranslation();
     return (
         <>
             <Grid item xs={12} md={6}>
                 <Card>
-                    <CardMedia component="img" height="500" image={familyMember['images'][0]} alt={familyMember['name']}/>
+                    <CardMedia component="img" height="500" image={'/UID-Royal-Family' + images[0]} alt={familyMember['name']}/>
                 </Card>
             </Grid>
             <Grid item xs={12} md={6}>

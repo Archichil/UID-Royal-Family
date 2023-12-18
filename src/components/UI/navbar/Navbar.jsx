@@ -1,11 +1,10 @@
 import React from 'react';
-import {AppBar, Toolbar, Typography, useMediaQuery} from '@mui/material';
-import {Link} from 'react-router-dom';
+import {AppBar, Toolbar, useMediaQuery} from '@mui/material';
 import {useTranslation} from "react-i18next";
-import {backgroundColors, colors} from "./Constants";
+import {backgroundColors} from "./Constants";
 import AnimatedButtonNavbar from "./AnimatedButtonNavbar";
 import AnimatedItemNavbar from "./AnimatedItemNavbar";
-import {p_home} from "../../../js/Paths";
+import RoyalLink from "./RoyalLink";
 
 const Navbar = () => {
     const { t } = useTranslation();
@@ -14,18 +13,7 @@ const Navbar = () => {
     return (
         <AppBar position="static" style={{ background: backgroundColors.default }}>
             <Toolbar style={{ display: 'flex', justifyContent: 'space-between' }}>
-                <Typography
-                    component={Link}
-                    to={p_home}
-                    variant="h6"
-                    style={{
-                        fontSize: '1.5em',
-                        color: `rgb(${colors.default})`,
-                        textDecoration: 'none',
-                    }}
-                >
-                    {t('navbar.title')}
-                </Typography>
+                <RoyalLink/>
                 <div style={{ display: 'flex', alignItems: 'center' }}>
                     {isSmallScreen
                         ? ( <AnimatedItemNavbar/> )

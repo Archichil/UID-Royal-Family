@@ -1,10 +1,10 @@
 import React from 'react';
-import {AppBar, Box, Toolbar, Typography, useMediaQuery} from '@mui/material';
+import {AppBar, Box, Toolbar, useMediaQuery} from '@mui/material';
 import {useTranslation} from 'react-i18next';
-import {backgroundColors, colors} from "../navbar/Constants";
-import {Link} from 'react-router-dom';
+import {backgroundColors} from "../navbar/Constants";
 import AnimatedButtonFooter from './AnimatedButtonFooter';
 import AnimatedItemNavbar from './AnimatedItemNavbar';
+import RoyalLink from "../navbar/RoyalLink";
 
 const Footer = () => {
     const { t } = useTranslation();
@@ -24,20 +24,9 @@ const Footer = () => {
                 }}
             >
                 <Toolbar>
-                    <Typography
-                        component={Link}
-                        to="/"
-                        variant="h6"
-                        style={{
-                            fontSize: '1.5em',
-                            color: `rgb(${colors.default})`,
-                            textDecoration: 'none',
-                        }}
-                    >
-                        {t('navbar.title')}
-                    </Typography>
+                    <RoyalLink/>
                 </Toolbar>
-                <Toolbar style={{ display: 'flex', fontSize: '1em', fontFamily: '"Roboto","Helvetica","Arial",sans-serif',}}>
+                <Toolbar style={{ display: 'flex', fontSize: '0.8em', fontFamily: '"Roboto","Helvetica","Arial",sans-serif',}}>
                     © 2023 {foo['uni']}
                     { isSmallScreen ? <AnimatedItemNavbar /> : <AnimatedButtonFooter /> }
                 </Toolbar>
