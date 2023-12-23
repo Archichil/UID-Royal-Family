@@ -1,6 +1,7 @@
 import React from 'react';
 import {Card, CardMedia, Grid, Typography} from "@mui/material";
 import {useTranslation} from "react-i18next";
+import {p_home} from "../../js/Paths";
 
 const Info = ({ familyMember, images }) => {
     const {t} = useTranslation();
@@ -8,7 +9,7 @@ const Info = ({ familyMember, images }) => {
         <>
             <Grid item xs={12} md={6}>
                 <Card>
-                    <CardMedia component="img" height="500" image={'/UID-Royal-Family' + images[0]} alt={familyMember['name']}/>
+                    <CardMedia component="img" height="500" image={p_home + images[0]} alt={familyMember['name']}/>
                 </Card>
             </Grid>
             <Grid item xs={12} md={6}>

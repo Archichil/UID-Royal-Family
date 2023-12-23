@@ -6,6 +6,7 @@ import Container from "@mui/material/Container";
 import {useTranslation} from "react-i18next";
 import {membersId} from "../js/MembersId";
 import {images} from '../js/Images';
+import {p_home} from "../js/Paths";
 
 const FamilyMembers = () => {
     const [searchTerm, setSearchTerm] = useState('');
@@ -16,7 +17,7 @@ const FamilyMembers = () => {
 
     for (const id of membersId) {
         const familyMember = familyMembers[id];
-        members.push({id : id, name: familyMember.name, src: '/UID-Royal-Family' + images[id][0]});
+        members.push({id : id, name: familyMember.name, src: p_home + images[id][0]});
     }
 
     const filteredData = members.filter((item) =>
